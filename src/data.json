@@ -1,0 +1,113 @@
+{
+    "name": "Angelyn Bonaldy",
+    "shortName": "Anggi",
+    "title1": "Frontend Developer",
+    "title2": "Backend Developer",
+    "location": "Barcelona, Spain",
+    "aboutMe": "Full-stack developer with a background in wellness, after 13 years working as nutritionist, having helped more 1000 people to improve their health, I reskilled myself as web developer (React/Node/Postgres/SQL); thanks to my previous experiences, I bring to the team strong communication skills, a solution-oriented mindset, creativity, and empathy to foster effective collaboration among team members.",
+    "skills": 
+      [
+        { 
+          "name": "HTML", 
+          "image": "/skills/html.svg" 
+        },
+        { 
+          "name": "Figma", 
+          "image": "skills/figma.svg" },
+        { 
+          "name": "Javascript", 
+          "image": "skills/javascript.svg" 
+        },
+        { 
+          "name": "CSS", 
+          "image": "skills/css.svg" 
+        },
+        {  
+          "name": "React", 
+          "image": "skills/react.svg" 
+        },
+        { 
+          "name": "Node JS", 
+          "image": "skills/nodejs.svg" 
+        },
+        { 
+          "name": "Microsoft Office", 
+          "image": "skills/microsoftoffice.svg" 
+        },
+        { 
+          "name": "Bootstrap", 
+          "image": "skills/bootstrap.svg"
+        },
+        { 
+          "name": "Tailwind", 
+          "image": "skills/tailwind.svg" 
+        },
+        { 
+          "name": "ViteJS", 
+          "image": "skills/vitejs.svg" 
+        },
+        { 
+          "name": "PostgreSQL", 
+          "image": "skills/postgresql.svg" 
+        },
+        { 
+          "name": "Firebase", 
+          "image": "skills/firebase.svg"
+        },
+        { 
+          "name": "MaterialUI", 
+          "image": "skills/materialui.svg"
+        },
+        { 
+          "name": "Wordpress",
+          "image": "skills/wordpress.svg"
+        }
+      ],
+    "copyrightImage": "Photo by <a href='https://www.freepik.com/free-psd/3d-woman-working-laptop_31624443.htm#query=3d%20illustrations%20woman%20tech&position=36&from_view=search&track=ais&uuid=c83a7c0e-1b41-4675-83a0-6896ad84a64c'>Freepik</a>",
+    "projects": [
+        {
+          "id": "1",
+          "name": "MigraMix",
+          "description": "Migramix is a website for the promotion of migrant artists and their events, including the possibility for organisers to be promoted. The aim of this site is to bring information from the artists to the artists, all in one place.",
+          "image": "/project-migramix-removebg-preview.png",
+          "link": "https://github.com/anggifit/MigraMix"
+        },
+        {
+          "id":"2",
+          "name": "GoodFood",
+          "description":"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis consequatur magni quod nesciunt necessitatibus molestiae non eligendi, magnam est aliquam recusandae? Magnam soluta minus iste alias sunt veritatis nisi dolores!",
+          "image":"/project-migramix-removebg-preview.png",
+          "link": "https://github.com/anggifit/FindingFood"
+        },
+        {
+          "id":"3",
+          "name": "Migramind",
+          "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis consequatur magni quod nesciunt necessitatibus molestiae non eligendi, magnam est aliquam recusandae? Magnam soluta minus iste alias sunt veritatis nisi dolores!",
+          "image": "/project-migramix-removebg-preview.png",
+          "link":"https://github.com/Migracode-Barcelona/migramind"
+        },
+        {
+          "id":"4",
+          "name": "Portfolio",
+          "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis consequatur magni quod nesciunt necessitatibus molestiae non eligendi, magnam est aliquam recusandae? Magnam soluta minus iste alias sunt veritatis nisi dolores!",
+          "image": "/src/assets/html-css-javascript.jpg",
+          "link":""
+        },
+        {
+          "name": "Project 4",
+          "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis consequatur magni quod nesciunt necessitatibus molestiae non eligendi, magnam est aliquam recusandae? Magnam soluta minus iste alias sunt veritatis nisi dolores!",
+          "image": "/src/assets/javascript-fullstack.jpg"
+        },
+        {
+          "name": "Project 5",
+          "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis consequatur magni quod nesciunt necessitatibus molestiae non eligendi, magnam est aliquam recusandae? Magnam soluta minus iste alias sunt veritatis nisi dolores!",
+          "image": "/assets/mern-stack.jpg"
+        },
+        {
+          "name": "Project 6",
+          "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis consequatur magni quod nesciunt necessitatibus molestiae non eligendi, magnam est aliquam recusandae? Magnam soluta minus iste alias sunt veritatis nisi dolores!",
+          "image": "/public/assets/react-redux.jpg"
+        }
+      ]
+}
+
