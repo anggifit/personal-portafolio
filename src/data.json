@@ -4,7 +4,11 @@
   "title1": "Frontend Developer",
   "title2": "Backend Developer",
   "location": "Barcelona, Spain",
-  "aboutMe": "Full-stack developer with a background in wellness, after 13 years working as nutritionist, having helped more 1000 people to improve their health, I reskilled myself as web developer (React/Node/Postgres/SQL); thanks to my previous experiences, I bring to the team strong communication skills, a solution-oriented mindset, creativity, and empathy to foster effective collaboration among team members.",
+  "aboutMe": "Hello! I'm Angely, a full-stack developer with a unique background in health and wellness. After 13 years as a nutritionist, my curiosity to implement technological solutions led me to train as a web developer, specializing in React, Node, Postgres, and SQL.",
+  "aboutMe2":"My previous experience has equipped me with strong communication skills, a solution-oriented mindset, creativity, and empathy, enabling me to foster effective collaboration in development teams.",
+  "aboutMe3":"When I'm not immersed in the coding world, I enjoy exercising, dancing, and diving into the pages of a good book. I'm passionate about the challenges presented by programming and love finding innovative solutions to complex problems.",
+  "aboutMe4":"I currently reside in Barcelona, where I'm inspired by the vibrant tech community and the cultural richness this city has to offer.",
+  "aboutMe5":"I'm excited about the future opportunities and challenging projects that programming has in store for me!",
   "skills": [
     {
       "name": "HTML",

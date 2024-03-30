@@ -13,7 +13,7 @@ const Homepage = () => {
       <Title />
       <div className="flex justify-center">
         <a onClick={handleClickNav('about-me')}>
-          <span className="material-symbols-outlined text-5xl hover:text-pink-400">
+          <span className="material-symbols-outlined text-5xl hover:text-pink-400 hidden sm:inline">
             keyboard_arrow_down
           </span>
         </a>
