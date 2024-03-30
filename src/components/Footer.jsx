@@ -1,17 +1,21 @@
 import React from "react";
+import { handleClickNav } from "../utils/handleClickNav";
 
 const Footer = () => {
   return (
     <div>
       <div className="flex flex-col bg-black">
         <div className="flex mt-6 mb-6 flex-row justify-around font-semibold text-lg">
-          <a className="hidden md:block cursor-pointer text-gray-600 hover:text-white">
+          <a onClick={handleClickNav('home')} className="inline md:block cursor-pointer text-gray-600 hover:text-white">
+            Home
+          </a>
+          <a onClick={handleClickNav('about-me')} className="hidden md:block cursor-pointer text-gray-600 hover:text-white">
             About Me
           </a>
-          <a className="hidden md:block cursor-pointer text-gray-600 hover:text-white">
+          <a onClick={handleClickNav('projects')} className="hidden md:block cursor-pointer text-gray-600 hover:text-white">
             DevVentures
           </a>
-          <a className="hidden md:block cursor-pointer text-gray-600 hover:text-white">
+          <a onClick={handleClickNav('contact')} className="hidden md:block cursor-pointer text-gray-600 hover:text-white">
             LinkUp
           </a>{" "}
           <div className="flex flex-row space-x-8 items-center justify-between">

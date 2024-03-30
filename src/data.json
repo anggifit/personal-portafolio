@@ -143,14 +143,6 @@
     },
     {
       "id": "3",
-      "name": "Migramind",
-      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis consequatur magni quod nesciunt necessitatibus molestiae non eligendi, magnam est aliquam recusandae? Magnam soluta minus iste alias sunt veritatis nisi dolores!",
-      "image": "/project-migramix-removebg-preview.png",
-      "link": "https://github.com/Migracode-Barcelona/migramind",
-      "github": "https://github.com/Migracode-Barcelona/migramind"
-    },
-    {
-      "id": "4",
       "name": "Portfolio",
       "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis consequatur magni quod nesciunt necessitatibus molestiae non eligendi, magnam est aliquam recusandae? Magnam soluta minus iste alias sunt veritatis nisi dolores!",
       "image": "/project-portfolio-removebg.png",

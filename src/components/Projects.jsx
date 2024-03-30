@@ -13,7 +13,7 @@ const Projects = () => {
               home
             </span>
           </a>
-          <div className="text-white text-6xl font-bold text-end">
+          <div className="text-white text-3xl md:text-6xl font-bold text-end">
             DevVentures
           </div>
         </div>

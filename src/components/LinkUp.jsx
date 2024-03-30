@@ -4,7 +4,7 @@ import Footer from './Footer'
 
 const LinkUp = () => {
     return (
-        <div id="contact-me" className="h-full">
+        <div id="contact" className="h-full">
             <ContactMe/>
             <Footer/>
         </div>
