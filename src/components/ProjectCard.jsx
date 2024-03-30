@@ -1,29 +1,55 @@
-import React from 'react';
+import React from "react";
+import { skillsImage } from "../utils/skillsImage";
 
-const ProjectCard = () => {
+const ProjectCard = ({
+  image,
+  nameProject,
+  description,
+  link,
+  github,
+  techs,
+}) => {
   return (
-    <div className="col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-6 xxl:col-span-6 bg-purple-500 hover:bg-orange-400 h-full px-16 py-6 flex items-center">
+    <div className="rounded-3xl col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-6 xxl:col-span-6 bg-purple-400 hover:bg-slate-600 h-full px-16 py-6 flex items-center">
       <div className="w-1/2">
-        <img 
-          src="/project-migramix-removebg-preview.png"
+        <img
+          src={image}
           className="w-full h-auto object-contain"
           alt="Project Image"
         />
       </div>
       <div className="ml-6 w-1/2">
-        <h1 className="text-white font-semibold text-2xl mb-4">Project: aca va nombre de proyecto</h1>
-        <p className="text-white mb-4">
-          Descripcion del proyecto: sLorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita illum maiores qui voluptatem facere praesentium dignissimos doloribus, possimus ipsum nobis nulla nisi voluptas nostrum, quisquam natus vitae debitis, dolores quam!
-        </p>
-        <button
-          className="bg-pink-600 text-white font-bold py-2 px-4 rounded-lg hover:bg-white hover:text-pink-600 text-sm shadow-xl"
-        >
-          Go to GitHub
-        </button>
+        <h2 className="text-white font-semibold text-2xl mb-4">
+          {nameProject}
+        </h2>
+        <p className="text-white mb-4">{description}</p>
+        <div className="flex py-5 items-start">
+          {techs
+            ? techs.map((tech, index) => (
+                <img
+                  key={index}
+                  src={skillsImage(tech.name)}
+                  alt={tech.name}
+                  className="h-6 mr-2"
+                />
+              ))
+            : null}
+        </div>
+        <div className="flex">
+          <a href={link} target="_blank">
+            <button className="bg-pink-400 text-white font-bold py-2 px-4 mx-4 rounded-lg hover:bg-white hover:text-pink-600 text-sm shadow-xl">
+              Demo
+            </button>
+          </a>
+          <a href={github} target="_blank">
+            <button className="bg-pink-400 text-white font-bold py-2 px-4 rounded-lg hover:bg-white hover:text-pink-600 text-sm shadow-xl">
+              Go to GitHub
+            </button>
+          </a>
+        </div>
       </div>
     </div>
   );
 };
 
 export default ProjectCard;
-

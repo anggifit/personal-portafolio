@@ -22,7 +22,7 @@ function SkillsDisplay() {
                     {data.skills.map((skill, id)=> (
                         <div 
                             key={id}
-                            className='bg-orange-400 shadow-md rounded-lg w-24 h-24 m-3 flex items-center justify-center p-3 transition duration-300 ease-in-out'
+                            className='bg-pink-200 shadow-md rounded-lg w-24 h-24 m-3 flex items-center justify-center p-3 transition duration-300 ease-in-out'
                         >
                             <img 
                                 src={skillsImage(skill.name)} 

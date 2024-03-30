@@ -1,8 +1,8 @@
 import './App.css'
-import AboutMe from './components/AboutMe'
-import Footer from './components/Footer'
 import Homepage from './components/Homepage'
+import AboutMe from './components/AboutMe'
 import Projects from './components/Projects'
+import LinkUp from './components/LinkUp'
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
       <Homepage/>
       <AboutMe/>
       <Projects/>
-      <Footer/>
+      <LinkUp/>
     </div>
 
   )
