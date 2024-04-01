@@ -144,10 +144,62 @@
     {
       "id": "3",
       "name": "Portfolio",
-      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis consequatur magni quod nesciunt necessitatibus molestiae non eligendi, magnam est aliquam recusandae? Magnam soluta minus iste alias sunt veritatis nisi dolores!",
-      "image": "/project-portfolio-removebg.png",
+      "description": "Explore my portfolio, where creativity meets functionality. From innovative designs to seamless user experiences, each project showcases my dedication to crafting compelling digital solutions. Join me on a journey through my work and discover the intersection of artistry and technology.",
+      "image": "/project-portfolio.png",
       "link": "https://github.com/anggifit/personal-portafolio",
-      "github": "https://github.com/anggifit/personal-portafolio"
+      "github": "https://github.com/anggifit/personal-portafolio",
+      "techs": [
+        {
+          "name": "Javascript",
+          "image": "skills/javascript.svg"
+        },
+        {
+          "name": "React",
+          "image": "skills/react.svg"
+        },
+        {
+          "name": "Tailwind",
+          "image": "skills/tailwind.svg"
+        },
+        {
+          "name": "ViteJS",
+          "image": "skills/vitejs.svg"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Pet adoption",
+      "description": "Connecting animal shelters with caring individuals to find loving homes for those in need. Join us in making a difference in the lives of our furry friends.",
+      "image": "/project-adoption.png",
+      "link": "https://github.com/juabiDev/no-country",
+      "github": "https://github.com/juabiDev/no-country", 
+      "techs": [
+        {
+          "name": "Figma",
+          "image": "skills/figma.svg"
+        },
+        {
+          "name": "Javascript",
+          "image": "skills/javascript.svg"
+        },
+        {
+          "name": "CSS",
+          "image": "skills/css.svg"
+        },
+        {
+          "name": "React",
+          "image": "skills/react.svg"
+        },
+        {
+          "name": "Tailwind",
+          "image": "skills/tailwind.svg"
+        },
+        {
+          "name": "ViteJS",
+          "image": "skills/vitejs.svg"
+        }
+      ]
     }
   ]
 }

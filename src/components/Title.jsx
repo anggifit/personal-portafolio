@@ -59,7 +59,7 @@ const Title = () => {
                   href="https://github.com/anggifit"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-2xl sm:text-4xl px-2 sm:px-3 text-pink-600"
+                  className="text-2xl sm:text-4xl px-1 sm:px-2 text-purple-600"
                 >
                   <FontAwesomeIcon icon={faSquareGithub} />
                 </a>
@@ -67,7 +67,7 @@ const Title = () => {
                   href="https://www.linkedin.com/in/angelynbonaldy"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-2xl sm:text-4xl px-2 sm:px-3 text-pink-600"
+                  className="text-2xl sm:text-4xl px-1 sm:px-2 text-purple-600"
                 >
                   <FontAwesomeIcon icon={faLinkedin} />
                 </a>
