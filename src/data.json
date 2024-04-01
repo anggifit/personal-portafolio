@@ -172,8 +172,8 @@
       "name": "Pet adoption",
       "description": "Connecting animal shelters with caring individuals to find loving homes for those in need. Join us in making a difference in the lives of our furry friends.",
       "image": "/project-adoption.png",
-      "link": "https://github.com/juabiDev/no-country",
-      "github": "https://github.com/juabiDev/no-country", 
+      "link": "https://github.com/No-Country/c17-71-m-python/tree/frontend",
+      "github": "https://github.com/No-Country/c17-71-m-python/tree/frontend", 
       "techs": [
         {
           "name": "Figma",
