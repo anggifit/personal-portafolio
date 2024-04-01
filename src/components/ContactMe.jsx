@@ -1,31 +1,26 @@
-import React, { useRef } from "react";
-import emailjs from "@emailjs/browser";
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 import CustomButton from "./CustomButton";
 
 const ContactMe = () => {
   const form = useRef();
 
   const sendEmail = (e) => {
-    e.preventDefault();
+      e.preventDefault();
 
-    emailjs
-      .sendForm(
-        import.meta.env.VITE_SERVICE_ID,
-        import.meta.env.VITE_TEMPLATE_ID,
-        form.current,
-        {
+      emailjs
+        .sendForm(import.meta.env.VITE_SERVICE_ID,  import.meta.env.VITE_TEMPLATE_ID, form.current, {
           publicKey: import.meta.env.VITE_PUBLIC_KEY,
-        }
-      )
-      .then(
-        () => {
-          console.log("SUCCESS!");
-        },
-        (error) => {
-          console.log("FAILED...", error.text);
-        }
-      );
-  };
+        })
+        .then(
+          () => {
+            console.log('SUCCESSFULL!');
+          },
+          (error) => {
+            console.log('FAILED...', error.text);
+          },
+        );
+    };
 
   return (
     <div className="h-[800px] overflow-scroll bg-gradient-to-r from-blue-100 via-purple-100 to-pink-100 p-4 flex items-center justify-center">
@@ -45,7 +40,7 @@ const ContactMe = () => {
           <div>
             <input
               type="email"
-              name="email"
+              name='email'
               className="focus:outline-none border-b w-full pb-2 border-sky-400 placeholder-gray-500 my-8"
               placeholder="Email Address"
             />
@@ -54,7 +49,7 @@ const ContactMe = () => {
             <textarea
               rows="6"
               type="text"
-              name="message"
+              name='message'
               className="focus:outline-none border-b w-full pb-2 border-sky-400 placeholder-gray-500 mb-8"
               placeholder="Your message"
             />
