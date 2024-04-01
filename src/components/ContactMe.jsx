@@ -1,9 +1,24 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import CustomButton from "./CustomButton";
 
 const ContactMe = () => {
   const form = useRef();
+
+  const initialState = {
+    from_name: '',
+    email: '',
+    message: ''
+  }
+
+  const [formData, setFormData] = useState(initialState)
+  const [success, setSuccess] = useState(false)
+
+  function handleCleanData (event) {
+    const { name, value } = event.target
+    setFormData({...formData, [name]: value })
+  }
+
 
   const sendEmail = (e) => {
       e.preventDefault();
@@ -14,7 +29,8 @@ const ContactMe = () => {
         })
         .then(
           () => {
-            console.log('SUCCESSFULL!');
+            setSuccess(true)
+            setFormData(initialState)
           },
           (error) => {
             console.log('FAILED...', error.text);
@@ -35,6 +51,8 @@ const ContactMe = () => {
               className="focus:outline-none border-b w-full pb-2 border-sky-400 placeholder-gray-500"
               placeholder="Your name"
               name="from_name"
+              value={formData.from_name}
+              onChange={handleCleanData}
             />
           </div>
           <div>
@@ -43,6 +61,8 @@ const ContactMe = () => {
               name='email'
               className="focus:outline-none border-b w-full pb-2 border-sky-400 placeholder-gray-500 my-8"
               placeholder="Email Address"
+              value={formData.email}
+              onChange={handleCleanData}
             />
           </div>
           <div>
@@ -52,8 +72,12 @@ const ContactMe = () => {
               name='message'
               className="focus:outline-none border-b w-full pb-2 border-sky-400 placeholder-gray-500 mb-8"
               placeholder="Your message"
+              value={formData.message}
+              onChange={handleCleanData}
             />
-          </div>
+          </div> 
+          {success ? <div>Mensaje enviado</div> : null }
+          
           <CustomButton text="Send Message" />
         </form>
       </div>
