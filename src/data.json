@@ -5,10 +5,10 @@
   "title2": "Backend Developer",
   "location": "Barcelona, Spain",
   "aboutMe": "Hello! I'm Angely, a full-stack developer with a unique background in health and wellness. After 13 years as a nutritionist, my curiosity to implement technological solutions led me to train as a web developer, specializing in React, Node, Postgres, and SQL.",
-  "aboutMe2":"My previous experience has equipped me with strong communication skills, a solution-oriented mindset, creativity, and empathy, enabling me to foster effective collaboration in development teams.",
-  "aboutMe3":"When I'm not immersed in the coding world, I enjoy exercising, dancing, and diving into the pages of a good book. I'm passionate about the challenges presented by programming and love finding innovative solutions to complex problems.",
-  "aboutMe4":"I currently reside in Barcelona, where I'm inspired by the vibrant tech community and the cultural richness this city has to offer.",
-  "aboutMe5":"I'm excited about the future opportunities and challenging projects that programming has in store for me!",
+  "aboutMe2": "My previous experience has equipped me with strong communication skills, a solution-oriented mindset, creativity, and empathy, enabling me to foster effective collaboration in development teams.",
+  "aboutMe3": "When I'm not immersed in the coding world, I enjoy exercising, dancing, and diving into the pages of a good book. I'm passionate about the challenges presented by programming and love finding innovative solutions to complex problems.",
+  "aboutMe4": "I currently reside in Barcelona, where I'm inspired by the vibrant tech community and the cultural richness this city has to offer.",
+  "aboutMe5": "I'm excited about the future opportunities and challenging projects that programming has in store for me!",
   "skills": [
     {
       "name": "HTML",
@@ -110,7 +110,7 @@
     {
       "id": "2",
       "name": "GoodFood",
-      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis consequatur magni quod nesciunt necessitatibus molestiae non eligendi, magnam est aliquam recusandae? Magnam soluta minus iste alias sunt veritatis nisi dolores!",
+      "description": "Recipe search engine that utilizes an API to provide a wide variety of culinary options. In addition to finding recipes, the app displays key nutritional information, helping users make informed decisions about their diet.",
       "image": "/project-goodFood-removebg.png",
       "link": "https://github.com/anggifit/FindingFood",
       "github": "https://github.com/anggifit/FindingFood",
@@ -172,8 +172,8 @@
       "name": "Pet adoption",
       "description": "Connecting animal shelters with caring individuals to find loving homes for those in need. Join us in making a difference in the lives of our furry friends.",
       "image": "/project-adoption.png",
-      "link": "https://github.com/No-Country/c17-71-m-python/tree/frontend",
-      "github": "https://github.com/No-Country/c17-71-m-python/tree/frontend", 
+      "link": "https://patitas-adopciones.vercel.app",
+      "github": "https://github.com/No-Country/c17-71-m-python",
       "techs": [
         {
           "name": "Figma",

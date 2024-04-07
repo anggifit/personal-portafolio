@@ -30,7 +30,7 @@ const Footer = () => {
             onClick={handleClickNav("contact")}
             className="hidden md:block cursor-pointer text-gray-600 hover:text-white"
           >
-            LinkUp
+            Get in Touch
           </a>{" "}
           <div className="flex flex-row space-x-8 items-center justify-between">
             <a
@@ -53,7 +53,7 @@ const Footer = () => {
         </div>
         <hr className="border-gray-600" />
         <p className="w-full text-center my-8 text-gray-600">
-          Copyright © 2024 Created with love
+          Copyright © 2024 Created with love by anggifit
         </p>
       </div>
     </div>

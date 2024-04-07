@@ -61,7 +61,7 @@ const NavBar = () => {
                         DevVentures
                     </a>
                     <a href="#" onClick={handleClickNav('contact')} className="text-black font-semibold text-lg hover:text-pink-400">
-                        LinkUp
+                    Get in Touch
                     </a>
                 </div>
             </div>
