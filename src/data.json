@@ -109,11 +109,11 @@
     },
     {
       "id": "2",
-      "name": "GoodFood",
-      "description": "Recipe search engine that utilizes an API to provide a wide variety of culinary options. In addition to finding recipes, the app displays key nutritional information, helping users make informed decisions about their diet.",
-      "image": "/project-goodFood-removebg.png",
-      "link": "https://github.com/anggifit/FindingFood",
-      "github": "https://github.com/anggifit/FindingFood",
+      "name": "Patitas",
+      "description": "Connecting animal shelters with caring individuals to find loving homes for those in need. Join us in making a difference in the lives of our furry friends.",
+      "image": "/project-patitas.png",
+      "link": "https://patitas-adopciones.vercel.app",
+      "github": "https://github.com/No-Country/c17-71-m-python",
       "techs": [
         {
           "name": "Figma",
@@ -146,7 +146,7 @@
       "name": "Portfolio",
       "description": "Explore my portfolio, where creativity meets functionality. From innovative designs to seamless user experiences, each project showcases my dedication to crafting compelling digital solutions. Join me on a journey through my work and discover the intersection of artistry and technology.",
       "image": "/project-portfolio.png",
-      "link": "https://github.com/anggifit/personal-portafolio",
+      "link": "https://personal-portafolio-pi.vercel.app",
       "github": "https://github.com/anggifit/personal-portafolio",
       "techs": [
         {
@@ -169,11 +169,11 @@
     },
     {
       "id": "4",
-      "name": "Pet adoption",
-      "description": "Connecting animal shelters with caring individuals to find loving homes for those in need. Join us in making a difference in the lives of our furry friends.",
-      "image": "/project-adoption.png",
-      "link": "https://patitas-adopciones.vercel.app",
-      "github": "https://github.com/No-Country/c17-71-m-python",
+      "name": "GoodFood",
+      "description": "Recipe search engine that utilizes an API to provide a wide variety of culinary options. In addition to finding recipes, the app displays key nutritional information, helping users make informed decisions about their diet.",
+      "image": "/project-goodFood-removebg.png",
+      "link": "https://github.com/anggifit/FindingFood",
+      "github": "https://github.com/anggifit/FindingFood",
       "techs": [
         {
           "name": "Figma",
