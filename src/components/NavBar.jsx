@@ -67,7 +67,7 @@ const NavBar = () => {
             </div>
             {/* Mostrar el menú de hamburguesa en dispositivos móviles */}
             {showMenu && (
-                <div className="md:hidden bg-gray-100 p-4">
+                <div className="md:hidden p-4">
                     <a
                         href="#"
                         className="block text-black font-semibold text-lg mb-2 hover:text-pink-400"
