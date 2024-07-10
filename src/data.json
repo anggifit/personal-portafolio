@@ -74,7 +74,7 @@
       "name": "MigraMix",
       "description": "Migramix is a website for the promotion of migrant artists and their events, including the possibility for organisers to be promoted. The aim of this site is to bring information from the artists to the artists, all in one place.",
       "image": "/project-migramix-removebg-preview.png",
-      "link": "https://migramix.migracode.org",
+      "link": "https://github.com/anggifit/MigraMix",
       "github": "https://github.com/anggifit/MigraMix",
       "techs": [
         {
