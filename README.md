@@ -3,8 +3,6 @@
 This is a personal portfolio project developed using Vite.js and React, with styles provided by Tailwind CSS. The aim of this project is to create an interactive and visually appealing website to showcase your skills, projects, and professional experience.
 
 
-
-
 ## Features
 
 - Vite.js: Vite has been used as the bundler for the project development, providing a fast and efficient development experience.
