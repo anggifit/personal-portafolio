@@ -29,6 +29,18 @@ Before running the application, make sure to correctly configure the environment
 ## User Data
 
 The user information is located in the data.json file. Make sure to provide the necessary details in this file to be displayed correctly in the portfolio.
+
+## Icons and Skills
+
+### Icons
+
+The icons used in the portfolio are located in the `assets` folder. If you need to add a new icon that is not already in the folder, place the new icon in the `assets` folder.
+
+### Adding New Skills
+
+When adding a new skill that is not already included in the portfolio, you must also update the cases in the `skillsImage` function located in the `utils` directory.
+
+
 ## Running the Project
 
 Follow these steps to run the project on your local machine:

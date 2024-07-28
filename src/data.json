@@ -1,8 +1,8 @@
 {
   "name": "Angelyn Bonaldy",
   "shortName": "Anggi",
-  "title1": "Frontend Developer",
-  "title2": "Backend Developer",
+  "title1": "Fullstack Developer",
+  "title2": "QA Tester",
   "location": "Barcelona, Spain",
   "aboutMe": "Hello! I'm Angely, a full-stack developer with a unique background in health and wellness. After 13 years as a nutritionist, my curiosity to implement technological solutions led me to train as a web developer, specializing in React, Node, Postgres, and SQL.",
   "aboutMe2": "My previous experience has equipped me with strong communication skills, a solution-oriented mindset, creativity, and empathy, enabling me to foster effective collaboration in development teams.",
@@ -65,6 +65,10 @@
     {
       "name": "Wordpress",
       "image": "skills/wordpress.svg"
+    },
+    {
+      "name": "Astro",
+      "image": "skills/astro.svg"
     }
   ],
   "copyrightImage": "Photo by <a href='https://www.freepik.com/free-psd/3d-woman-working-laptop_31624443.htm#query=3d%20illustrations%20woman%20tech&position=36&from_view=search&track=ais&uuid=c83a7c0e-1b41-4675-83a0-6896ad84a64c'>Freepik</a>",

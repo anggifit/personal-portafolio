@@ -12,7 +12,7 @@ const AboutMe = () => {
           <div className="flex justify-between items-center py-4 px-6">
             <h1 className="text-black text-3xl md:text-6xl font-bold">About Me</h1>
             <a onClick={handleClickNav("home")}>
-              <span className="material-symbols-outlined text-3xl text-black hover:text-pink-400">
+              <span className="cursor-pointer material-symbols-outlined text-3xl text-black hover:text-pink-400">
                 home
               </span>
             </a>

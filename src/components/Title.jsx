@@ -51,7 +51,7 @@ const Title = () => {
               </h1>
               <div className="place-self-start flex flex-row items-center flex-wrap gap-2 sm:gap-3">
               {showCustomButton && (
-                <a href="/CV Angelyn Bonaldy (en).pdf" download>
+                <a href="/CV QA Angelyn Bonaldy (es).pdf" download>
                   <CustomButton text="Download CV" />
                 </a>
               )}
@@ -59,7 +59,7 @@ const Title = () => {
                   href="https://github.com/anggifit"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-2xl sm:text-4xl px-1 sm:px-2 text-purple-600"
+                  className="text-2xl sm:text-4xl px-1 sm:px-2 text-purple-400 hover:text-purple-600 shadow-lg rounded-lg"
                 >
                   <FontAwesomeIcon icon={faSquareGithub} />
                 </a>
@@ -67,7 +67,7 @@ const Title = () => {
                   href="https://www.linkedin.com/in/angelynbonaldy"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-2xl sm:text-4xl px-1 sm:px-2 text-purple-600"
+                  className="text-2xl sm:text-4xl px-1 sm:px-2  text-purple-400 hover:text-purple-600 shadow-lg rounded-lg"
                 >
                   <FontAwesomeIcon icon={faLinkedin} />
                 </a>

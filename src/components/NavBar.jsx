@@ -13,7 +13,7 @@ const NavBar = () => {
             <div className="flex justify-between items-center py-4 px-6">
                 <div>
                     <a onClick={handleClickNav('home')}>
-                        <span className="material-symbols-outlined text-3xl hover:text-pink-400">home</span>
+                        <span className="material-symbols-outlined text-3xl hover:text-pink-400 cursor-pointer">home</span>
                     </a>
                 </div>
                 {/* Mostrar el menú de hamburguesa en dispositivos móviles */}

@@ -9,7 +9,7 @@ const Projects = () => {
       <section className="h-full px-8 py-8">
         <div className="flex justify-between items-center py-4 px-6">
           <a onClick={handleClickNav("home")}>
-            <span className="material-symbols-outlined text-3xl hover:text-pink-400">
+            <span className="cursor-pointer material-symbols-outlined text-3xl hover:text-pink-400">
               home
             </span>
           </a>
