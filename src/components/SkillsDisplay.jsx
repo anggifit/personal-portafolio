@@ -6,9 +6,9 @@ import {skillsImage} from '../utils/skillsImage'
 function SkillsDisplay() {
     return (        
         <div>
-            <h2 className='text-center text-4xl font-bold text-black'>
+            <h3 className='text-center text-black'>
                 Skills
-            </h2>
+            </h3>
             <div className='pt-8 flex align items-center justify-items-center'>
                 <Marquee
                     gradient={false} 

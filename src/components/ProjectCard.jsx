@@ -18,7 +18,7 @@ const ProjectCard = ({
           alt="Project Image"
         />
       </div>
-      <div className="w-full sm:w-1/2 sm:ml-6">
+      <div className="w-full sm:w-1/2 sm:ml-6 ">
         <h2 className="text-white font-semibold text-center md:text-left text-xl sm:text-2xl mb-2 sm:mb-4">
           {nameProject}
         </h2>

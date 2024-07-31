@@ -45,10 +45,10 @@ const ContactMe = () => {
   return (
     <div className="h-[800px] overflow-scroll bg-gradient-to-r from-blue-100 via-purple-100 to-pink-100 p-4 flex items-center justify-center">
       <div className="bg-white py-6 px-10 sm:max-w-md w-full">
-        <div className="text-black font-semibold text-2xl text-center mb-8">
-          <div className="text-black font-semibold text-2xl text-center mb-8">
+        <div className="text-black mb-8">
+          <h4 className="text-black text-center mb-8">
             Get in Touch
-          </div>
+          </h4>
         </div>
         <form onSubmit={sendEmail} ref={form}>
           <div>

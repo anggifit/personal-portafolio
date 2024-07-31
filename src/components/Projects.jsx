@@ -13,9 +13,9 @@ const Projects = () => {
               home
             </span>
           </a>
-          <div className="text-white text-3xl md:text-6xl font-bold text-end">
+          <h2 className="text-white text-end">
             DevVentures
-          </div>
+          </h2>
         </div>
         <div className="grid grid-cols-12 gap-0 m-5">
           {data.projects.map((project) => (
