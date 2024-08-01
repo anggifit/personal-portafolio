@@ -10,24 +10,28 @@ const Footer = () => {
         <div className="flex mt-6 mb-6 flex-row justify-around font-semibold text-lg">
           <a
             onClick={handleClickNav("home")}
+            aria-label="Go to home section"
             className="inline md:block cursor-pointer text-gray-600 hover:text-white"
           >
             Home
           </a>
           <a
             onClick={handleClickNav("about-me")}
+            aria-label="Go to About Me section"
             className="hidden md:block cursor-pointer text-gray-600 hover:text-white"
           >
             About Me
           </a>
           <a
             onClick={handleClickNav("projects")}
+            aria-label="Go to projects section"
             className="hidden md:block cursor-pointer text-gray-600 hover:text-white"
           >
             DevVentures
           </a>
           <a
             onClick={handleClickNav("contact")}
+            aria-label="Go to contact section"
             className="hidden md:block cursor-pointer text-gray-600 hover:text-white"
           >
             Get in Touch
@@ -35,6 +39,7 @@ const Footer = () => {
           <div className="flex flex-row space-x-8 items-center justify-between">
             <a
               href="https://github.com/anggifit"
+              aria-label="Go to Angelyn's GitHub"
               target="_blank"
               rel="noopener noreferrer"
               className="text-md px-1 sm:px-2 text-gray-600"
@@ -43,6 +48,7 @@ const Footer = () => {
             </a>
             <a
               href="https://www.linkedin.com/in/angelynbonaldy"
+              aria-label="Go to Angelyn's Linkedin"
               target="_blank"
               rel="noopener noreferrer"
               className="text-md px-1 sm:px-2 text-gray-600"

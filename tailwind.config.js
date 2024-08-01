@@ -80,17 +80,17 @@ export default {
           fontSize: theme("fontSize.lg"),
           fontWeight: "600",
           '@screen sm': {
-            fontSize: theme("fontSize.3xl"), // Size for small screens
+            fontSize: theme("fontSize.3xl"), 
           },
           '@screen md': {
-            fontSize: theme("fontSize.4xl"), // Size for large screens
+            fontSize: theme("fontSize.4xl"), 
           },
           '@screen lg': {
-            fontSize: theme("fontSize.5xl"), // Size for extra large screens
+            fontSize: theme("fontSize.5xl"), 
           },
         },
         p: {
-          fontSize: theme("fontSize.base"),
+          fontSize: theme("fontSize.lg"),
           fontWeight: "400",
         },
       });

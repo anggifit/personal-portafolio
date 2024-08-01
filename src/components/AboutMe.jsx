@@ -11,7 +11,7 @@ const AboutMe = () => {
         <div className="relative px-8 py-8">
           <div className="flex justify-between items-center py-4 px-6">
             <h2 className="text-black">About Me</h2>
-            <a onClick={handleClickNav("home")}>
+            <a onClick={handleClickNav("home")} aria-label="Go to home section">
               <span className="cursor-pointer material-symbols-outlined text-3xl text-black hover:text-pink-400">
                 home
               </span>
@@ -37,6 +37,7 @@ const AboutMe = () => {
               src={aboutMeImg}
               width={450}
               className="rounded-3xl object-cover mx-auto relative z-10 transform -rotate-3"
+              alt='Foto de Angelyn Bonaldy'
             />
           </div>
         </div>
