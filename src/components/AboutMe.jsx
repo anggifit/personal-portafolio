@@ -36,6 +36,7 @@ const AboutMe = () => {
             <img
               src={aboutMeImg}
               width={450}
+              loading="lazy"
               className="rounded-3xl object-cover mx-auto relative z-10 transform -rotate-3"
               alt='Foto de Angelyn Bonaldy'
             />

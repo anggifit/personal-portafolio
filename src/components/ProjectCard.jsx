@@ -16,6 +16,7 @@ const ProjectCard = ({
           src={image}
           className="w-full h-auto object-contain"
           alt="Project Image"
+          loading="lazy"
         />
       </div>
       <div className="w-full sm:w-1/2 sm:ml-6 ">

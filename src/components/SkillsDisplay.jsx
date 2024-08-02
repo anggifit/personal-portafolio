@@ -28,6 +28,7 @@ function SkillsDisplay() {
                                 src={skillsImage(skill.name)} 
                                 alt={skill.name} 
                                 className='max-w-full max-h-full'
+                                loading="lazy"
                             />
                         </div>
                     ))}
