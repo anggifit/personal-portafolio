@@ -1,11 +1,13 @@
 import React, { useState, useEffect } from "react";
 import Typewriter from "typewriter-effect";
-import data from "../data.json";
+import { useTranslation } from 'react-i18next';
 import CustomButton from "./CustomButton";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSquareGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 const Title = () => {
+  const { t } = useTranslation();
+
   const [showCustomButton, setShowCustomButton] = useState(true);
 
   useEffect(() => {
@@ -30,12 +32,12 @@ const Title = () => {
         <div className="col-span-12 sm:col-span-12 md:col-span-12 lg:col-span-12 xxl:col-span-12">
           <div className="w-full flex flex-col">
             <h1 className="text-white my-2 sm:my-4">
-              {data.name} <br />
-              I'm
+              {t('name')} <br />
+              {t('title3')}
               <span className="text-black">
                 <Typewriter
                   options={{
-                    strings: [`${data.title1}`, `${data.title2}`],
+                    strings: [`${t('title1')}`, `${t('title2')}`],
                     autoStart: true,
                     loop: true,
                   }}
@@ -49,7 +51,7 @@ const Title = () => {
                   aria-label="Download CV"
                   download
                 >
-                  <CustomButton text="Download CV" />
+                  <CustomButton text={t('downloadButton')} />
                 </a>
               )}
               <a

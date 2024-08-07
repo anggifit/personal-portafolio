@@ -26,7 +26,16 @@ Before running the application, make sure to correctly configure the environment
 
 ## User Data
 
-The user information is located in the data.json file. Make sure to provide the necessary details in this file to be displayed correctly in the portfolio.
+The user information and projects are located in the `data.json` file. Make sure to provide the necessary details in this file so they are displayed correctly in the portfolio.
+
+### Translation Files
+
+In addition to `data.json`, the application uses translation files to support multiple languages. The translation files are located in the `locales` folder and are organized as follows:
+
+- `locales/en.json`: Contains the translations in English.
+- `locales/es.json`: Contains the translations in Spanish.
+
+Each translation file includes sections for section titles and project information. Make sure to maintain the structure and provide the corresponding translations for each language.
 
 ## Icons and Skills
 

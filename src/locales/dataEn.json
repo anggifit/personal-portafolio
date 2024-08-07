@@ -1,0 +1,222 @@
+{
+  "name": "Angelyn Bonaldy",
+  "shortName": "Anggi",
+  "downloadButton":"Download CV",
+  "title1": "Fullstack Developer",
+  "title2": "QA Tester",
+  "title3": "I'm ",
+  "location": "Barcelona, Spain",
+  "aboutMe": "Hello! I'm Angely, a full-stack developer with a unique background in health and wellness. After 13 years as a nutritionist, my curiosity to implement technological solutions led me to train as a web developer, specializing in React, Node, Postgres, and SQL.",
+  "aboutMe2": "My previous experience has equipped me with strong communication skills, a solution-oriented mindset, creativity, and empathy, enabling me to foster effective collaboration in development teams.",
+  "aboutMe3": "When I'm not immersed in the coding world, I enjoy exercising, dancing, and diving into the pages of a good book. I'm passionate about the challenges presented by programming and love finding innovative solutions to complex problems.",
+  "aboutMe4": "I currently reside in Barcelona, where I'm inspired by the vibrant tech community and the cultural richness this city has to offer.",
+  "aboutMe5": "I'm excited about the future opportunities and challenging projects that programming has in store for me!",
+  "skills": [
+    {
+      "name": "HTML",
+      "image": "/skills/html.svg"
+    },
+    {
+      "name": "Figma",
+      "image": "skills/figma.svg"
+    },
+    {
+      "name": "Javascript",
+      "image": "skills/javascript.svg"
+    },
+    {
+      "name": "CSS",
+      "image": "skills/css.svg"
+    },
+    {
+      "name": "React",
+      "image": "skills/react.svg"
+    },
+    {
+      "name": "Node JS",
+      "image": "skills/nodejs.svg"
+    },
+    {
+      "name": "Microsoft Office",
+      "image": "skills/microsoftoffice.svg"
+    },
+    {
+      "name": "Bootstrap",
+      "image": "skills/bootstrap.svg"
+    },
+    {
+      "name": "Tailwind",
+      "image": "skills/tailwind.svg"
+    },
+    {
+      "name": "ViteJS",
+      "image": "skills/vitejs.svg"
+    },
+    {
+      "name": "PostgreSQL",
+      "image": "skills/postgresql.svg"
+    },
+    {
+      "name": "Firebase",
+      "image": "skills/firebase.svg"
+    },
+    {
+      "name": "MaterialUI",
+      "image": "skills/materialui.svg"
+    },
+    {
+      "name": "Wordpress",
+      "image": "skills/wordpress.svg"
+    },
+    {
+      "name": "Astro",
+      "image": "skills/astro.svg"
+    }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "name": "MigraMix",
+      "description": "Migramix is a website for the promotion of migrant artists and their events, including the possibility for organisers to be promoted. The aim of this site is to bring information from the artists to the artists, all in one place.",
+      "image": "/project-migramix.webp",
+      "link": "https://github.com/anggifit/MigraMix",
+      "github": "https://github.com/anggifit/MigraMix",
+      "techs": [
+        {
+          "name": "React",
+          "image": "skills/react.svg"
+        },
+        {
+          "name": "Node JS",
+          "image": "skills/nodejs.svg"
+        },
+        {
+          "name": "Tailwind",
+          "image": "skills/tailwind.svg"
+        },
+        {
+          "name": "ViteJS",
+          "image": "skills/vitejs.svg"
+        },
+        {
+          "name": "PostgreSQL",
+          "image": "skills/postgresql.svg"
+        },
+        {
+          "name": "Firebase",
+          "image": "skills/firebase.svg"
+        },
+        {
+          "name": "MaterialUI",
+          "image": "skills/materialui.svg"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Patitas",
+      "description": "Connecting animal shelters with caring individuals to find loving homes for those in need. Join us in making a difference in the lives of our furry friends.",
+      "image": "/project-patitas.webp",
+      "link": "https://github.com/No-Country/c17-71-m-python",
+      "github": "https://github.com/No-Country/c17-71-m-python",
+      "techs": [
+        {
+          "name": "Figma",
+          "image": "skills/figma.svg"
+        },
+        {
+          "name": "Javascript",
+          "image": "skills/javascript.svg"
+        },
+        {
+          "name": "CSS",
+          "image": "skills/css.svg"
+        },
+        {
+          "name": "React",
+          "image": "skills/react.svg"
+        },
+        {
+          "name": "Tailwind",
+          "image": "skills/tailwind.svg"
+        },
+        {
+          "name": "ViteJS",
+          "image": "skills/vitejs.svg"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Portfolio",
+      "description": "Explore my portfolio, where creativity meets functionality. From innovative designs to seamless user experiences, each project showcases my dedication to crafting compelling digital solutions. Join me on a journey through my work and discover the intersection of artistry and technology.",
+      "image": "/project-portfolio.webp",
+      "link": "https://personal-portafolio-pi.vercel.app",
+      "github": "https://github.com/anggifit/personal-portafolio",
+      "techs": [
+        {
+          "name": "Javascript",
+          "image": "skills/javascript.svg"
+        },
+        {
+          "name": "React",
+          "image": "skills/react.svg"
+        },
+        {
+          "name": "Tailwind",
+          "image": "skills/tailwind.svg"
+        },
+        {
+          "name": "ViteJS",
+          "image": "skills/vitejs.svg"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "GoodFood",
+      "description": "Recipe search engine that utilizes an API to provide a wide variety of culinary options. In addition to finding recipes, the app displays key nutritional information, helping users make informed decisions about their diet.",
+      "image": "/project-goodFood.webp",
+      "link": "https://github.com/anggifit/FindingFood",
+      "github": "https://github.com/anggifit/FindingFood",
+      "techs": [
+        {
+          "name": "Figma",
+          "image": "skills/figma.svg"
+        },
+        {
+          "name": "Javascript",
+          "image": "skills/javascript.svg"
+        },
+        {
+          "name": "CSS",
+          "image": "skills/css.svg"
+        },
+        {
+          "name": "React",
+          "image": "skills/react.svg"
+        },
+        {
+          "name": "Tailwind",
+          "image": "skills/tailwind.svg"
+        },
+        {
+          "name": "ViteJS",
+          "image": "skills/vitejs.svg"
+        }
+      ]
+    }
+  ],
+  "homeSection":"Home",
+  "aboutMeSection":"About Me",
+  "projectsSection":"DevVentures",
+  "skillTitle":"Skills",
+  "gitHubButton":"Go to GitHub",
+  "placeholderName":"Your name",
+  "placeholderEmail":"Email Address",
+  "placeholderMessage":"Your message",
+  "successMessage":"Message sent",
+  "sendMessageButton":"Send message",
+  "contactTitle":"Let's Connect",
+  "footerCopyright":"Created with love by anggi"
+}

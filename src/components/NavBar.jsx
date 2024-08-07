@@ -1,7 +1,11 @@
 import React, { useState } from "react";
+import { useTranslation } from 'react-i18next';
 import { handleClickNav } from "../utils/handleClickNav";
+import LenguageButtons from "./LanguageButtons"
 
 const NavBar = () => {
+  const { t } = useTranslation();
+
   const [showMenu, setShowMenu] = useState(false);
 
   const toggleMenu = () => {
@@ -56,22 +60,23 @@ const NavBar = () => {
             className="text-black font-semibold text-lg hover:text-pink-400"
             onClick={handleClickNav("about-me")}
           >
-            About Me
+            {t('aboutMeSection')}
           </a>
           <a
             aria-label="Go to projects section"
             className="text-black font-semibold text-lg hover:text-pink-400"
             onClick={handleClickNav("projects")}
           >
-            DevVentures
+            {t('projectsSection')}
           </a>
           <a
             aria-label="Go to contact section"
             onClick={handleClickNav("contact")}
             className="text-black font-semibold text-lg hover:text-pink-400"
           >
-            Get in Touch
+            {t('contactTitle')}
           </a>
+          <LenguageButtons/>
         </div>
       </div>
       {/* Mostrar el menú de hamburguesa en dispositivos móviles */}
@@ -82,20 +87,20 @@ const NavBar = () => {
             className="block text-black font-semibold text-lg mb-2 hover:text-pink-400"
             onClick={handleClickNav("about-me")}
           >
-            About Me
+            {t('aboutMeSection')}
           </a>
           <a
             aria-label="Go to projects section"
             className="block text-black font-semibold text-lg mb-2 hover:text-pink-400"
             onClick={handleClickNav("projects")}
           >
-            DevVentures
+            {t('projectsSection')}
           </a>
           <a
             aria-label="Go to contact section"
             className="block text-black font-semibold text-lg hover:text-pink-400"
           >
-            LinkUp
+            {t('contactTitle')}
           </a>
         </div>
       )}

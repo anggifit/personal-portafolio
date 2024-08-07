@@ -1,9 +1,12 @@
 import React from "react";
+import { useTranslation } from 'react-i18next';
 import ProjectCard from "./ProjectCard";
 import { handleClickNav } from "../utils/handleClickNav";
-import data from "../data.json";
 
 const Projects = () => {
+  const { t } = useTranslation();
+  const projects = t('projects', { returnObjects: true });
+
   return (
     <div className="bg-purple-400 w-full h-full min-h-screen" id="projects">
       <section className="h-full px-8 py-8">
@@ -14,11 +17,11 @@ const Projects = () => {
             </span>
           </a>
           <h2 className="text-white text-end">
-            DevVentures
+            {t('projectsSection')}
           </h2>
         </div>
         <div className="grid grid-cols-12 gap-0 m-5">
-          {data.projects.map((project) => (
+          {projects.map((project) => (
             <ProjectCard
               key={project.id}
               image={project.image}
