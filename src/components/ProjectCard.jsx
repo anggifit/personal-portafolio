@@ -1,4 +1,5 @@
 import React from "react";
+import { useTranslation } from 'react-i18next';
 import { skillsImage } from "../utils/skillsImage";
 
 const ProjectCard = ({
@@ -9,6 +10,8 @@ const ProjectCard = ({
   github,
   techs,
 }) => {
+  const { t } = useTranslation();
+
   return (
     <div className="rounded-3xl col-span-12 sm:col-span-12 md:col-span-6 lg:col-span-6 xxl:col-span-6 bg-purple-400 hover:bg-slate-600 h-full px-8 sm:px-16 py-6 flex flex-col sm:flex-row items-center">
       <div className="w-full sm:w-1/2 mb-4 sm:mb-0">
@@ -43,7 +46,7 @@ const ProjectCard = ({
           </a> */}
           <a href={github} target="_blank" rel="noopener noreferrer">
             <button className="bg-pink-400 text-white font-bold py-2 px-4 rounded-lg hover:bg-white hover:text-pink-600 text-sm shadow-xl">
-              Go to GitHub
+              {t('gitHubButton')}
             </button>
           </a>
         </div>

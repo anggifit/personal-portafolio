@@ -1,8 +1,11 @@
 import React, { useRef, useState } from "react";
+import { useTranslation } from 'react-i18next';
 import emailjs from "@emailjs/browser";
 import CustomButton from "./CustomButton";
 
 const ContactMe = () => {
+  const { t } = useTranslation();
+  
   const form = useRef();
 
   const initialState = {
@@ -46,16 +49,14 @@ const ContactMe = () => {
     <div className="h-[800px] overflow-scroll bg-gradient-to-r from-blue-100 via-purple-100 to-pink-100 p-4 flex items-center justify-center">
       <div className="bg-white py-6 px-10 sm:max-w-md w-full">
         <div className="text-black mb-8">
-          <h4 className="text-black text-center mb-8">
-            Get in Touch
-          </h4>
+          <h4 className="text-black text-center mb-8">{t('contactTitle')}</h4>
         </div>
         <form onSubmit={sendEmail} ref={form}>
           <div>
             <input
               type="text"
               className="focus:outline-none border-b w-full pb-2 border-sky-400 placeholder-gray-500"
-              placeholder="Your name"
+              placeholder={t('placeholderName')}
               name="from_name"
               value={formData.from_name}
               onChange={handleCleanData}
@@ -66,7 +67,7 @@ const ContactMe = () => {
               type="email"
               name="email"
               className="focus:outline-none border-b w-full pb-2 border-sky-400 placeholder-gray-500 my-8"
-              placeholder="Email Address"
+              placeholder={t('placeholderEmail')}
               value={formData.email}
               onChange={handleCleanData}
             />
@@ -77,14 +78,14 @@ const ContactMe = () => {
               type="text"
               name="message"
               className="focus:outline-none border-b w-full pb-2 border-sky-400 placeholder-gray-500 mb-8"
-              placeholder="Your message"
+              placeholder={t('placeholderMessage')}
               value={formData.message}
               onChange={handleCleanData}
             />
           </div>
-          {success ? <div>Mensaje enviado</div> : null}
+          {success ? <div>{t('successMessage')}</div> : null}
 
-          <CustomButton text="Send Message" />
+          <CustomButton text={t('sendMessageButton')} />
         </form>
       </div>
     </div>

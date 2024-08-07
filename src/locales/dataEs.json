@@ -1,0 +1,222 @@
+{
+  "name": "Angelyn Bonaldy",
+  "shortName": "Anggi",
+  "downloadButton":"Descargar CV",
+  "title1": "Desarrolladora Fullstack",
+  "title2": "QA Tester",
+  "title3": "Soy",
+  "location": "Barcelona, España",
+  "aboutMe": "¡Hola! Soy Angely, una desarrolladora full-stack con una experiencia única en salud y bienestar. Tras 13 años trabajando como nutricionista, mi curiosidad por implementar soluciones tecnológicas me impulsó a formarme como desarrolladora web, especializándome en React, Node, Postgres y SQL.",
+  "aboutMe2": "Mi experiencia previa me ha dotado de fuertes habilidades de comunicación, una mentalidad orientada a la solución, creatividad y empatía, lo que me permite fomentar una colaboración efectiva en los equipos de desarrollo.",
+  "aboutMe3": "Cuando no estoy inmersa en el mundo de la programación, disfruto de hacer ejercicio, bailar y perderme en las páginas de un buen libro. Me apasionan los desafíos que la programación presenta y me encanta encontrar soluciones innovadoras a problemas complejos.",
+  "aboutMe4": "Actualmente resido en Barcelona, donde me inspira la vibrante comunidad tecnológica y la riqueza cultural que ofrece esta ciudad.",
+  "aboutMe5": "¡Estoy emocionada por las futuras oportunidades y proyectos desafiantes que la programación tiene reservados para mí!",
+  "skills": [
+    {
+      "name": "HTML",
+      "image": "/skills/html.svg"
+    },
+    {
+      "name": "Figma",
+      "image": "skills/figma.svg"
+    },
+    {
+      "name": "Javascript",
+      "image": "skills/javascript.svg"
+    },
+    {
+      "name": "CSS",
+      "image": "skills/css.svg"
+    },
+    {
+      "name": "React",
+      "image": "skills/react.svg"
+    },
+    {
+      "name": "Node JS",
+      "image": "skills/nodejs.svg"
+    },
+    {
+      "name": "Microsoft Office",
+      "image": "skills/microsoftoffice.svg"
+    },
+    {
+      "name": "Bootstrap",
+      "image": "skills/bootstrap.svg"
+    },
+    {
+      "name": "Tailwind",
+      "image": "skills/tailwind.svg"
+    },
+    {
+      "name": "ViteJS",
+      "image": "skills/vitejs.svg"
+    },
+    {
+      "name": "PostgreSQL",
+      "image": "skills/postgresql.svg"
+    },
+    {
+      "name": "Firebase",
+      "image": "skills/firebase.svg"
+    },
+    {
+      "name": "MaterialUI",
+      "image": "skills/materialui.svg"
+    },
+    {
+      "name": "Wordpress",
+      "image": "skills/wordpress.svg"
+    },
+    {
+      "name": "Astro",
+      "image": "skills/astro.svg"
+    }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "name": "MigraMix",
+      "description": "Migramix es un sitio web diseñado para promover a artistas migrantes y sus eventos, con la posibilidad de que los organizadores también sean promocionados. El objetivo de este sitio es centralizar y compartir información relevante de y para los artistas en un solo lugar.",
+      "image": "/project-migramix.webp",
+      "link": "https://github.com/anggifit/MigraMix",
+      "github": "https://github.com/anggifit/MigraMix",
+      "techs": [
+        {
+          "name": "React",
+          "image": "skills/react.svg"
+        },
+        {
+          "name": "Node JS",
+          "image": "skills/nodejs.svg"
+        },
+        {
+          "name": "Tailwind",
+          "image": "skills/tailwind.svg"
+        },
+        {
+          "name": "ViteJS",
+          "image": "skills/vitejs.svg"
+        },
+        {
+          "name": "PostgreSQL",
+          "image": "skills/postgresql.svg"
+        },
+        {
+          "name": "Firebase",
+          "image": "skills/firebase.svg"
+        },
+        {
+          "name": "MaterialUI",
+          "image": "skills/materialui.svg"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Patitas",
+      "description": "Conectamos refugios de animales con personas cariñosas para encontrar hogares amorosos para aquellos que lo necesitan. Únete a nosotros y marca la diferencia en la vida de nuestros amigos peludos.",
+      "image": "/project-patitas.webp",
+      "link": "https://github.com/No-Country/c17-71-m-python",
+      "github": "https://github.com/No-Country/c17-71-m-python",
+      "techs": [
+        {
+          "name": "Figma",
+          "image": "skills/figma.svg"
+        },
+        {
+          "name": "Javascript",
+          "image": "skills/javascript.svg"
+        },
+        {
+          "name": "CSS",
+          "image": "skills/css.svg"
+        },
+        {
+          "name": "React",
+          "image": "skills/react.svg"
+        },
+        {
+          "name": "Tailwind",
+          "image": "skills/tailwind.svg"
+        },
+        {
+          "name": "ViteJS",
+          "image": "skills/vitejs.svg"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Portafolio",
+      "description": "Explora mi portafolio, donde la creatividad se fusiona con la funcionalidad. Desde diseños innovadores hasta experiencias de usuario fluidas, cada proyecto refleja mi dedicación a crear soluciones digitales atractivas. Acompáñame en un viaje a través de mi trabajo y descubre la intersección entre el arte y la tecnología.",
+      "image": "/project-portfolio.webp",
+      "link": "https://personal-portafolio-pi.vercel.app",
+      "github": "https://github.com/anggifit/personal-portafolio",
+      "techs": [
+        {
+          "name": "Javascript",
+          "image": "skills/javascript.svg"
+        },
+        {
+          "name": "React",
+          "image": "skills/react.svg"
+        },
+        {
+          "name": "Tailwind",
+          "image": "skills/tailwind.svg"
+        },
+        {
+          "name": "ViteJS",
+          "image": "skills/vitejs.svg"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "GoodFood",
+      "description": "Un motor de búsqueda de recetas que utiliza una API para ofrecer una amplia variedad de opciones culinarias. Además de encontrar recetas, la aplicación proporciona información nutricional clave, ayudando a los usuarios a tomar decisiones informadas sobre su dieta.",
+      "image": "/project-goodFood.webp",
+      "link": "https://github.com/anggifit/FindingFood",
+      "github": "https://github.com/anggifit/FindingFood",
+      "techs": [
+        {
+          "name": "Figma",
+          "image": "skills/figma.svg"
+        },
+        {
+          "name": "Javascript",
+          "image": "skills/javascript.svg"
+        },
+        {
+          "name": "CSS",
+          "image": "skills/css.svg"
+        },
+        {
+          "name": "React",
+          "image": "skills/react.svg"
+        },
+        {
+          "name": "Tailwind",
+          "image": "skills/tailwind.svg"
+        },
+        {
+          "name": "ViteJS",
+          "image": "skills/vitejs.svg"
+        }
+      ]
+    }
+  ],
+  "homeSection":"Inicio",
+  "aboutMeSection":"Sobre mi",
+  "projectsSection":"AventurasDev",
+  "skillTitle":"Herramientas y Tecnologías",
+  "gitHubButton":"Ir a GitHub",
+  "placeholderName":"Tu nombre",
+  "placeholderEmail":"Tu correo electronico",
+  "placeholderMessage":"Tu mensaje",
+  "successMessage":"Mensaje enviado",
+  "sendMessageButton":"Enviar mensaje",
+  "contactTitle":"Conectemos",
+  "footerCopyright":"Creado con amor por anggi"
+}

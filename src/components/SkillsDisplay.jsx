@@ -1,13 +1,16 @@
 import React from 'react';
 import Marquee from 'react-fast-marquee';
+import { useTranslation } from 'react-i18next';
 import data from '../data.json'
 import {skillsImage} from '../utils/skillsImage'
 
 function SkillsDisplay() {
+    const { t } = useTranslation();
+
     return (        
         <div>
             <h3 className='text-center text-black'>
-                Skills
+                {t('skillTitle')}
             </h3>
             <div className='pt-8 flex align items-center justify-items-center'>
                 <Marquee
