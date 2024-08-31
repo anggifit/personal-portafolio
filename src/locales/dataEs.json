@@ -76,10 +76,40 @@
   "projects": [
     {
       "id": "1",
+      "name": "Web de Nutrición y Bienestar",
+      "description": "Actualmente en desarrollo, esta plataforma está diseñada para ofrecer consultas de nutrición personalizadas, entrenamientos personalizados y recursos educativos. Incluye funcionalidades como reservas via Whatsapp, testimonios de clientes y recetas.",
+      "image": "/project-anggiFit.png",
+      "link": "https://anggifitzone.netlify.app/",
+      "github": "https://github.com/anggifit/astroAnggifitProject.git",
+      "techs": [ 
+        {
+          "name": "React",
+          "image": "skills/react.svg"
+        },
+        {
+          "name": "Astro",
+          "image": "skills/astro.svg"
+        },
+        {
+          "name": "Tailwind",
+          "image": "skills/tailwind.svg"
+        },
+        {
+          "name": "Figma",
+          "image": "skills/figma.svg"
+        },
+        {
+          "name": "Javascript",
+          "image": "skills/javascript.svg"
+        }
+      ]
+    },
+    {
+      "id": "2",
       "name": "MigraMix",
       "description": "Migramix es un sitio web diseñado para promover a artistas migrantes y sus eventos, con la posibilidad de que los organizadores también sean promocionados. El objetivo de este sitio es centralizar y compartir información relevante de y para los artistas en un solo lugar.",
       "image": "/project-migramix.webp",
-      "link": "https://github.com/anggifit/MigraMix",
+      "link": "https://migramix.migracode.org/",
       "github": "https://github.com/anggifit/MigraMix",
       "techs": [
         {
@@ -113,11 +143,11 @@
       ]
     },
     {
-      "id": "2",
+      "id": "3",
       "name": "Patitas",
       "description": "Conectamos refugios de animales con personas cariñosas para encontrar hogares amorosos para aquellos que lo necesitan. Únete a nosotros y marca la diferencia en la vida de nuestros amigos peludos.",
       "image": "/project-patitas.webp",
-      "link": "https://github.com/No-Country/c17-71-m-python",
+      "link": "",
       "github": "https://github.com/No-Country/c17-71-m-python",
       "techs": [
         {
@@ -147,7 +177,7 @@
       ]
     },
     {
-      "id": "3",
+      "id": "4",
       "name": "Portafolio",
       "description": "Explora mi portafolio, donde la creatividad se fusiona con la funcionalidad. Desde diseños innovadores hasta experiencias de usuario fluidas, cada proyecto refleja mi dedicación a crear soluciones digitales atractivas. Acompáñame en un viaje a través de mi trabajo y descubre la intersección entre el arte y la tecnología.",
       "image": "/project-portfolio.webp",
@@ -173,11 +203,11 @@
       ]
     },
     {
-      "id": "4",
+      "id": "5",
       "name": "GoodFood",
       "description": "Un motor de búsqueda de recetas que utiliza una API para ofrecer una amplia variedad de opciones culinarias. Además de encontrar recetas, la aplicación proporciona información nutricional clave, ayudando a los usuarios a tomar decisiones informadas sobre su dieta.",
       "image": "/project-goodFood.webp",
-      "link": "https://github.com/anggifit/FindingFood",
+      "link": "",
       "github": "https://github.com/anggifit/FindingFood",
       "techs": [
         {

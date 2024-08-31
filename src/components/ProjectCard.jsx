@@ -39,11 +39,20 @@ const ProjectCard = ({
             ))}
         </div>
         <div className="flex justify-center sm:justify-start">
-          {/* <a href={link} target="_blank" rel="noopener noreferrer">
+          {
+            link === "" ?
+            <a href={link} target="_blank" rel="noopener noreferrer" className="hidden">
+              <button className="bg-pink-400 text-white font-bold py-2 px-4 rounded-lg hover:bg-white hover:text-pink-600 text-sm shadow-xl mb-2 sm:mb-0 mr-2">
+                Demo
+              </button>
+            </a>
+            :
+            <a href={link} target="_blank" rel="noopener noreferrer">
             <button className="bg-pink-400 text-white font-bold py-2 px-4 rounded-lg hover:bg-white hover:text-pink-600 text-sm shadow-xl mb-2 sm:mb-0 mr-2">
               Demo
             </button>
-          </a> */}
+          </a>
+          }
           <a href={github} target="_blank" rel="noopener noreferrer">
             <button className="bg-pink-400 text-white font-bold py-2 px-4 rounded-lg hover:bg-white hover:text-pink-600 text-sm shadow-xl">
               {t('gitHubButton')}

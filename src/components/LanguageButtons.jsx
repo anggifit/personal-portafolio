@@ -17,7 +17,7 @@ function LanguageSwitcher() {
         className={`px-2 mx-2 rounded-full text-xs font-bold ${
           selectedLanguage === "en"
             ? "bg-purple-600 text-white"
-            : "bg-purple-300 text-white hover:bg-white hover:text-purple-600"
+            : "bg-purple-300 text-purple-800 hover:bg-white hover:text-purple-600"
         }`}
       >
         En
@@ -27,7 +27,7 @@ function LanguageSwitcher() {
         className={`px-2 mx-2 rounded-full text-xs font-bold ${
           selectedLanguage === "es"
             ? "bg-purple-600 text-white"
-            : "bg-purple-300 text-white hover:bg-white hover:text-purple-600"
+            : "bg-purple-300 text-purple-800 hover:bg-white hover:text-purple-600"
         }`}
       >
         Es

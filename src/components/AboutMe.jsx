@@ -21,7 +21,7 @@ const AboutMe = () => {
             </a>
           </div>
         </div>
-        <div className="grid grid-cols-12 gap-6 px-8 py-8 ml-6">
+        <div className="grid grid-cols-12 gap-6 px-8 py-8">
           <div className="col-span-12 sm:col-span-12 md:col-span-5 lg:col-span-5 xxl:col-span-5 flex justify-center items-center text-center md:text-left">
             <div className="py-4 flex flex-col text-black leading-9">
               <p>{t('aboutMe')}</p>

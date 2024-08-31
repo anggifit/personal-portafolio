@@ -31,7 +31,7 @@ const Title = () => {
       <div className="grid grid-cols-12 gap-6">
         <div className="col-span-12 sm:col-span-12 md:col-span-12 lg:col-span-12 xxl:col-span-12">
           <div className="w-full flex flex-col">
-            <h1 className="text-white my-2 sm:my-4">
+            <h1 className="text-black my-2 sm:my-4">
               {t('name')} <br />
               {t('title3')}
               <span className="text-black">
