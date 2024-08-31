@@ -102,6 +102,10 @@ const NavBar = () => {
           >
             {t('contactTitle')}
           </a>
+          <div className="pt-3">
+
+          <LenguageButtons/>
+          </div>
         </div>
       )}
     </div>
