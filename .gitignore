@@ -25,3 +25,7 @@ dist-ssr
 
 # Ignorar el archivo .env
 .env
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
