@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import { useTranslation } from 'react-i18next';
+import { useTranslation } from "react-i18next";
 import { handleClickNav } from "../utils/handleClickNav";
-import LenguageButtons from "./LanguageButtons"
+import LenguageButtons from "./LanguageButtons";
 
 const NavBar = () => {
   const { t } = useTranslation();
@@ -13,7 +13,7 @@ const NavBar = () => {
   };
 
   return (
-    <div>
+    <nav>
       <div className="flex justify-between items-center py-4 px-6">
         <div>
           <a onClick={handleClickNav("home")} aria-label="Go to home section">
@@ -60,23 +60,23 @@ const NavBar = () => {
             className="text-black font-semibold text-lg hover:text-pink-400"
             onClick={handleClickNav("about-me")}
           >
-            {t('aboutMeSection')}
+            {t("aboutMeSection")}
           </a>
           <a
             aria-label="Go to projects section"
             className="text-black font-semibold text-lg hover:text-pink-400"
             onClick={handleClickNav("projects")}
           >
-            {t('projectsSection')}
+            {t("projectsSection")}
           </a>
           <a
             aria-label="Go to contact section"
             onClick={handleClickNav("contact")}
             className="text-black font-semibold text-lg hover:text-pink-400"
           >
-            {t('contactTitle')}
+            {t("contactTitle")}
           </a>
-          <LenguageButtons/>
+          <LenguageButtons />
         </div>
       </div>
       {/* Mostrar el menú de hamburguesa en dispositivos móviles */}
@@ -87,24 +87,24 @@ const NavBar = () => {
             className="block text-black font-semibold text-lg mb-2 hover:text-pink-400"
             onClick={handleClickNav("about-me")}
           >
-            {t('aboutMeSection')}
+            {t("aboutMeSection")}
           </a>
           <a
             aria-label="Go to projects section"
             className="block text-black font-semibold text-lg mb-2 hover:text-pink-400"
             onClick={handleClickNav("projects")}
           >
-            {t('projectsSection')}
+            {t("projectsSection")}
           </a>
           <a
             aria-label="Go to contact section"
             className="block text-black font-semibold text-lg hover:text-pink-400"
           >
-            {t('contactTitle')}
+            {t("contactTitle")}
           </a>
         </div>
       )}
-    </div>
+    </nav>
   );
 };
 
