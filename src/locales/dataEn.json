@@ -76,6 +76,32 @@
   "projects": [
     {
       "id": "1",
+      "name": "Web de Nutrición y Bienestar",
+      "description": "Professional nutrition website offering personalized nutritional care through online and in-person consultations. Developed with Astro for optimal performance, the site presents information about nutrition services and the nutritionist's professional profile. Designed to provide a smooth and accessible user experience on both mobile and desktop devices.",
+      "image": "/project-alejandra.webp",
+      "link": "https://nutrialejandraduran.netlify.app/",
+      "github": "https://github.com/anggifit",
+      "techs": [ 
+        {
+          "name": "Astro",
+          "image": "skills/astro.svg"
+        },
+        {
+          "name": "Tailwind",
+          "image": "skills/tailwind.svg"
+        },
+        {
+          "name": "Figma",
+          "image": "skills/figma.svg"
+        },
+        {
+          "name": "Javascript",
+          "image": "skills/javascript.svg"
+        }
+      ]
+    },
+    {
+      "id": "2",
       "name": "Nutrition and Wellness Web",
       "description": "Currently under development, this platform is designed to offer personalized nutrition consultations, customized workouts, and educational resources. It includes features such as WhatsApp bookings, client testimonials, and recipes.",
       "image": "/project-anggiFit.png",
@@ -105,7 +131,7 @@
       ]
     },
     {
-      "id": "2",
+      "id": "3",
       "name": "MigraMix",
       "description": "Migramix is a website for the promotion of migrant artists and their events, including the possibility for organisers to be promoted. The aim of this site is to bring information from the artists to the artists, all in one place.",
       "image": "/project-migramix.webp",
@@ -143,7 +169,7 @@
       ]
     },
     {
-      "id": "3",
+      "id": "4",
       "name": "Patitas",
       "description": "Connecting animal shelters with caring individuals to find loving homes for those in need. Join us in making a difference in the lives of our furry friends.",
       "image": "/project-patitas.webp",
@@ -177,7 +203,7 @@
       ]
     },
     {
-      "id": "4",
+      "id": "5",
       "name": "Portfolio",
       "description": "Explore my portfolio, where creativity meets functionality. From innovative designs to seamless user experiences, each project showcases my dedication to crafting compelling digital solutions. Join me on a journey through my work and discover the intersection of artistry and technology.",
       "image": "/project-portfolio.webp",
@@ -203,7 +229,7 @@
       ]
     },
     {
-      "id": "5",
+      "id": "6",
       "name": "GoodFood",
       "description": "Recipe search engine that utilizes an API to provide a wide variety of culinary options. In addition to finding recipes, the app displays key nutritional information, helping users make informed decisions about their diet.",
       "image": "/project-goodFood.webp",
