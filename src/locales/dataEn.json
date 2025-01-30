@@ -1,7 +1,7 @@
 {
   "name": "Angelyn Bonaldy",
   "shortName": "Anggi",
-  "downloadButton":"Download CV",
+  "downloadButton": "Download CV",
   "title1": "Fullstack Developer",
   "title2": "QA Tester",
   "title3": "I'm ",
@@ -71,17 +71,21 @@
     {
       "name": "Astro",
       "image": "skills/astro.svg"
+    },
+    {
+      "name": "React native",
+      "image": "skills/reactNative.svg"
     }
   ],
   "projects": [
     {
       "id": "1",
-      "name": "Web de Nutrición y Bienestar",
-      "description": "Professional nutrition website offering personalized nutritional care through online and in-person consultations. Developed with Astro for optimal performance, the site presents information about nutrition services and the nutritionist's professional profile. Designed to provide a smooth and accessible user experience on both mobile and desktop devices.",
+      "name": "Alejandra Mercado Duran - Nutritionist",
+      "description": "I developed a professional website for a nutritionist using Astro for optimal performance. With a responsive design focused on user experience, the site offers personalized consultations and a detailed professional profile. Technology and wellness in one place!",
       "image": "/project-alejandra.webp",
       "link": "https://nutrialejandraduran.netlify.app/",
       "github": "https://github.com/anggifit",
-      "techs": [ 
+      "techs": [
         {
           "name": "Astro",
           "image": "skills/astro.svg"
@@ -103,7 +107,7 @@
     {
       "id": "2",
       "name": "Nutrition and Wellness Web",
-      "description": "Currently under development, this platform is designed to offer personalized nutrition consultations, customized workouts, and educational resources. It includes features such as WhatsApp bookings, client testimonials, and recipes.",
+      "description": "A platform under development for personalized nutrition consultations and training. It integrates WhatsApp bookings, testimonials, and recipes, designed with React and Astro for a seamless experience. A project that combines health and technology!",
       "image": "/project-anggiFit.png",
       "link": "https://anggifitzone.netlify.app/",
       "github": "https://github.com/anggifit/astroAnggifitProject.git",
@@ -133,7 +137,7 @@
     {
       "id": "3",
       "name": "MigraMix",
-      "description": "Migramix is a website for the promotion of migrant artists and their events, including the possibility for organisers to be promoted. The aim of this site is to bring information from the artists to the artists, all in one place.",
+      "description": "In a world where art knows no borders, MigraMix emerges as a digital haven for migrant artists. It’s a platform that promotes migrant artists and their events. Developed with React, Node.js, and PostgreSQL, it connects communities through art. A project that unites cultures and celebrates diversity!",
       "image": "/project-migramix.webp",
       "link": "https://migramix.migracode.org/",
       "github": "https://github.com/anggifit/MigraMix",
@@ -171,7 +175,7 @@
     {
       "id": "4",
       "name": "Patitas",
-      "description": "Connecting animal shelters with caring individuals to find loving homes for those in need. Join us in making a difference in the lives of our furry friends.",
+      "description": "A platform that connects animal shelters with people willing to adopt. Developed with React and Tailwind, Patitas is more than a website: it’s a bridge to loving homes for our furry friends.",
       "image": "/project-patitas.webp",
       "link": "",
       "github": "https://github.com/No-Country/c17-71-m-python",
@@ -205,7 +209,7 @@
     {
       "id": "5",
       "name": "Portfolio",
-      "description": "Explore my portfolio, where creativity meets functionality. From innovative designs to seamless user experiences, each project showcases my dedication to crafting compelling digital solutions. Join me on a journey through my work and discover the intersection of artistry and technology.",
+      "description": "Welcome to my digital world, where every project is a story to tell. My portfolio reflects my passion for web development. With React and Tailwind, I’ve created a space where creativity and functionality merge. Explore my projects and discover how I bring ideas to life!",
       "image": "/project-portfolio.webp",
       "link": "https://personal-portafolio-pi.vercel.app",
       "github": "https://github.com/anggifit/personal-portafolio",
@@ -231,7 +235,7 @@
     {
       "id": "6",
       "name": "GoodFood",
-      "description": "Recipe search engine that utilizes an API to provide a wide variety of culinary options. In addition to finding recipes, the app displays key nutritional information, helping users make informed decisions about their diet.",
+      "description": "A recipe search engine with nutritional information, developed with React and an external API. GoodFood not only inspires in the kitchen but also helps make healthy decisions. Technology at the service of food!",
       "image": "/project-goodFood.webp",
       "link": "",
       "github": "https://github.com/anggifit/FindingFood",
@@ -263,16 +267,16 @@
       ]
     }
   ],
-  "homeSection":"Home",
-  "aboutMeSection":"About Me",
-  "projectsSection":"DevVentures",
-  "skillTitle":"Skills",
-  "gitHubButton":"Go to GitHub",
-  "placeholderName":"Your name",
-  "placeholderEmail":"Email Address",
-  "placeholderMessage":"Your message",
-  "successMessage":"Message sent",
-  "sendMessageButton":"Send message",
-  "contactTitle":"Let's Connect",
-  "footerCopyright":"Created with love by anggi"
+  "homeSection": "Home",
+  "aboutMeSection": "About Me",
+  "projectsSection": "DevVentures",
+  "skillTitle": "Skills",
+  "gitHubButton": "Go to GitHub",
+  "placeholderName": "Your name",
+  "placeholderEmail": "Email Address",
+  "placeholderMessage": "Your message",
+  "successMessage": "Message sent",
+  "sendMessageButton": "Send message",
+  "contactTitle": "Let's Connect",
+  "footerCopyright": "Created with love by anggi"
 }
