@@ -1,7 +1,7 @@
 {
   "name": "Angelyn Bonaldy",
   "shortName": "Anggi",
-  "downloadButton":"Descargar CV",
+  "downloadButton": "Descargar CV",
   "title1": "Desarrolladora Fullstack",
   "title2": "QA Tester",
   "title3": "Soy",
@@ -71,13 +71,17 @@
     {
       "name": "Astro",
       "image": "skills/astro.svg"
+    },
+    {
+      "name": "React native",
+      "image": "skills/reactNative.svg"
     }
   ],
   "projects": [
     {
       "id": "1",
       "name": "Alejandra Mercado Duran - Nutrologa",
-      "description": "Sitio web profesional de nutrición, que ofrece consultas atencion nutricional personalizada online y presencial. Desarrollado con Astro para un rendimiento óptimo, el sitio presenta información sobre servicios de nutrición, perfil profesional del nutriólogo. Diseñado para proporcionar una experiencia de usuario fluida y accesible en dispositivos móviles y de escritorio.",
+      "description": "Desarrollé un sitio web profesional para una nutricionista, utilizando Astro para un rendimiento óptimo. Con un diseño responsive y enfocado en la experiencia del usuario, el sitio ofrece consultas personalizadas y un perfil profesional detallado. ¡Tecnología y bienestar en un solo lugar!",
       "image": "/project-alejandra.webp",
       "link": "https://nutrialejandraduran.netlify.app/",
       "github": "https://github.com/anggifit",
@@ -103,11 +107,11 @@
     {
       "id": "2",
       "name": "Web de Nutrición y Bienestar",
-      "description": "Actualmente en desarrollo, esta plataforma está diseñada para ofrecer consultas de nutrición personalizadas, entrenamientos personalizados y recursos educativos. Incluye funcionalidades como reservas via Whatsapp, testimonios de clientes y recetas.",
+      "description": "Plataforma en desarrollo para consultas de nutrición y entrenamientos personalizados. Integra reservas vía WhatsApp, testimonios y recetas, diseñada con React y Astro para una experiencia fluida. ¡Un proyecto que combina salud y tecnología!",
       "image": "/project-anggiFit.png",
       "link": "https://anggifitzone.netlify.app/",
       "github": "https://github.com/anggifit/astroAnggifitProject.git",
-      "techs": [ 
+      "techs": [
         {
           "name": "React",
           "image": "skills/react.svg"
@@ -133,7 +137,7 @@
     {
       "id": "3",
       "name": "MigraMix",
-      "description": "Migramix es un sitio web diseñado para promover a artistas migrantes y sus eventos, con la posibilidad de que los organizadores también sean promocionados. El objetivo de este sitio es centralizar y compartir información relevante de y para los artistas en un solo lugar.",
+      "description": "En un mundo donde el arte no conoce fronteras, MigraMix nace como un refugio digital para artistas migrantes. Es una plataforma que promueve a artistas migrantes y sus eventos. Desarrollada con React, Node.js y PostgreSQL, conecta comunidades a través del arte. ¡Un proyecto que une culturas y celebra la diversidad!",
       "image": "/project-migramix.webp",
       "link": "https://migramix.migracode.org/",
       "github": "https://github.com/anggifit/MigraMix",
@@ -171,7 +175,7 @@
     {
       "id": "4",
       "name": "Patitas",
-      "description": "Conectamos refugios de animales con personas cariñosas para encontrar hogares amorosos para aquellos que lo necesitan. Únete a nosotros y marca la diferencia en la vida de nuestros amigos peludos.",
+      "description": "Plataforma que conecta refugios de animales con personas dispuestas a adoptar. Desarrollada con React y Tailwind, Patitas es más que un sitio web: es un puente hacia hogares llenos de amor para nuestros amigos peludos.",
       "image": "/project-patitas.webp",
       "link": "",
       "github": "https://github.com/No-Country/c17-71-m-python",
@@ -205,7 +209,7 @@
     {
       "id": "5",
       "name": "Portafolio",
-      "description": "Explora mi portafolio, donde la creatividad se fusiona con la funcionalidad. Desde diseños innovadores hasta experiencias de usuario fluidas, cada proyecto refleja mi dedicación a crear soluciones digitales atractivas. Acompáñame en un viaje a través de mi trabajo y descubre la intersección entre el arte y la tecnología.",
+      "description": "Bienvenido a mi mundo digital, donde cada proyecto es una historia que contar. Mi portafolio es un reflejo de mi pasión por el desarrollo web. Con React y Tailwind, he creado un espacio donde la creatividad y la funcionalidad se fusionan. ¡Explora mis proyectos y descubre cómo doy vida a las ideas!",
       "image": "/project-portfolio.webp",
       "link": "https://personal-portafolio-pi.vercel.app",
       "github": "https://github.com/anggifit/personal-portafolio",
@@ -231,7 +235,7 @@
     {
       "id": "6",
       "name": "GoodFood",
-      "description": "Un motor de búsqueda de recetas que utiliza una API para ofrecer una amplia variedad de opciones culinarias. Además de encontrar recetas, la aplicación proporciona información nutricional clave, ayudando a los usuarios a tomar decisiones informadas sobre su dieta.",
+      "description": "Motor de búsqueda de recetas con información nutricional, desarrollado con React y una API externa. GoodFood no solo inspira en la cocina, sino que también ayuda a tomar decisiones saludables. ¡Tecnología al servicio de la alimentación!",
       "image": "/project-goodFood.webp",
       "link": "",
       "github": "https://github.com/anggifit/FindingFood",
@@ -263,16 +267,16 @@
       ]
     }
   ],
-  "homeSection":"Inicio",
-  "aboutMeSection":"Sobre mi",
-  "projectsSection":"AventurasDev",
-  "skillTitle":"Herramientas y Tecnologías",
-  "gitHubButton":"Ir a GitHub",
-  "placeholderName":"Tu nombre",
-  "placeholderEmail":"Tu correo electronico",
-  "placeholderMessage":"Tu mensaje",
-  "successMessage":"Mensaje enviado",
-  "sendMessageButton":"Enviar mensaje",
-  "contactTitle":"Conectemos",
-  "footerCopyright":"Creado con amor por anggi"
+  "homeSection": "Inicio",
+  "aboutMeSection": "Sobre mi",
+  "projectsSection": "AventurasDev",
+  "skillTitle": "Herramientas y Tecnologías",
+  "gitHubButton": "Ir a GitHub",
+  "placeholderName": "Tu nombre",
+  "placeholderEmail": "Tu correo electronico",
+  "placeholderMessage": "Tu mensaje",
+  "successMessage": "Mensaje enviado",
+  "sendMessageButton": "Enviar mensaje",
+  "contactTitle": "Conectemos",
+  "footerCopyright": "Creado con amor por anggi"
 }

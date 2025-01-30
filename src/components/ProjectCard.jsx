@@ -1,4 +1,3 @@
-import React from "react";
 import { useTranslation } from "react-i18next";
 import { skillsImage } from "../utils/skillsImage";
 
@@ -39,31 +38,6 @@ const ProjectCard = ({
                 className="h-6 mr-2 mb-2"
               />
             ))}
-        </div>
-        <div className="flex justify-center sm:justify-start">
-          {link === "" ? (
-            <a
-              href={link}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hidden"
-            >
-              <button className="bg-pink-400 text-white font-bold py-2 px-4 rounded-lg hover:bg-white hover:text-pink-600 text-sm shadow-xl mb-2 sm:mb-0 mr-2">
-                Demo
-              </button>
-            </a>
-          ) : (
-            <a href={link} target="_blank" rel="noopener noreferrer">
-              <button className="bg-pink-400 text-white font-bold py-2 px-4 rounded-lg hover:bg-white hover:text-pink-600 text-sm shadow-xl mb-2 sm:mb-0 mr-2">
-                Demo
-              </button>
-            </a>
-          )}
-          <a href={github} target="_blank" rel="noopener noreferrer">
-            <button className="bg-pink-400 text-white font-bold py-2 px-4 rounded-lg hover:bg-white hover:text-pink-600 text-sm shadow-xl">
-              {t("gitHubButton")}
-            </button>
-          </a>
         </div>
       </div>
     </div>
