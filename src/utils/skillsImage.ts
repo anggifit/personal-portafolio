@@ -75,7 +75,85 @@ import nodejs from "../assets/skills/nodejs.svg";
 import canva from "../assets/skills/canva.svg";
 import astro from "../assets/skills/astro.svg";
 
-export const skillsImage = (skill: string) => {
+type SkillName =
+  | "gcp"
+  | "node js"
+  | "html"
+  | "photoshop"
+  | "docker"
+  | "illustrator"
+  | "adobe xd"
+  | "after effects"
+  | "css"
+  | "angular"
+  | "javascript"
+  | "next js"
+  | "nuxt js"
+  | "react"
+  | "svelte"
+  | "typescript"
+  | "vue"
+  | "bootstrap"
+  | "bulma"
+  | "capacitorjs"
+  | "coffeescript"
+  | "memsql"
+  | "mongodb"
+  | "mysql"
+  | "postgresql"
+  | "tailwind"
+  | "vitejs"
+  | "vuetifyjs"
+  | "c"
+  | "c++"
+  | "c#"
+  | "dart"
+  | "go"
+  | "java"
+  | "kotlin"
+  | "julia"
+  | "matlab"
+  | "php"
+  | "python"
+  | "ruby"
+  | "swift"
+  | "adobe audition"
+  | "aws"
+  | "deno"
+  | "django"
+  | "firebase"
+  | "gimp"
+  | "git"
+  | "graphql"
+  | "lightroom"
+  | "materialui"
+  | "nginx"
+  | "numpy"
+  | "opencv"
+  | "premiere pro"
+  | "pytorch"
+  | "selenium"
+  | "strapi"
+  | "tensorflow"
+  | "webix"
+  | "wordpress"
+  | "azure"
+  | "blender"
+  | "fastify"
+  | "figma"
+  | "flutter"
+  | "haxe"
+  | "ionic"
+  | "markdown"
+  | "microsoft office"
+  | "picsart"
+  | "sketch"
+  | "unity"
+  | "wolframalpha"
+  | "canva"
+  | "astro";
+
+export const skillsImage = (skill: SkillName): string => {
   const skillID = skill.trim().toLowerCase();
   switch (skillID) {
     case "gcp":
@@ -231,6 +309,6 @@ export const skillsImage = (skill: string) => {
     case "astro":
       return astro;
     default:
-      break;
+      throw new Error(`Skill image not found for: ${skill}`);
   }
 };
