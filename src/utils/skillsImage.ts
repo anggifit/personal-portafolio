@@ -75,7 +75,7 @@ import nodejs from "../assets/skills/nodejs.svg";
 import canva from "../assets/skills/canva.svg";
 import astro from "../assets/skills/astro.svg";
 
-export const skillsImage = (skill) => {
+export const skillsImage = (skill: string) => {
   const skillID = skill.trim().toLowerCase();
   switch (skillID) {
     case "gcp":
