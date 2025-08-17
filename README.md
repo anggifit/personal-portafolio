@@ -1,7 +1,6 @@
-
 # Personal Portfolio
-This is a personal portfolio project developed using Vite.js and React, with styles provided by Tailwind CSS. The aim of this project is to create an interactive and visually appealing website to showcase your skills, projects, and professional experience.
 
+This is a personal portfolio project developed using Vite.js and React, with styles provided by Tailwind CSS. The aim of this project is to create an interactive and visually appealing website to showcase your skills, projects, and professional experience.
 
 ## Features
 
@@ -10,8 +9,6 @@ This is a personal portfolio project developed using Vite.js and React, with sty
 - Tailwind CSS: The project's styles have been created using Tailwind CSS, making it easy to create custom and responsive layouts.
 - Icons: Material Symbols icons have been used to provide a cohesive visual experience throughout the site.
 - EmailJS Integration: EmailJS has been integrated for the functionality of sending messages from the contact form. Setting up .env variables is necessary for EmailJS integration. Please ensure to create an account on EmailJS and configure the required variables in the .env file. Refer to the EmailJS documentation for detailed instructions https://www.emailjs.com/docs/sdk/installation/.
-
-
 
 ## Environment Variables
 
@@ -22,7 +19,6 @@ Before running the application, make sure to correctly configure the environment
 `VITE_TEMPLATE_ID`
 
 `VITE_PUBLIC_KEY`
-
 
 ## User Data
 
@@ -47,34 +43,36 @@ The icons used in the portfolio are located in the `assets` folder. If you need 
 
 When adding a new skill that is not already included in the portfolio, you must also update the cases in the `skillsImage` function located in the `utils` directory.
 
-
 ## Running the Project
 
 Follow these steps to run the project on your local machine:
 
 - Clone this repository to your local machine.
 - Install dependencies using npm or yarn:
+
 ```bash
     npm install
 
 ```
+
 - Set up the environment variables in a .env file as mentioned above.
 - Run the project locally:
-    ```bash
-    npm run dev
+
+  ```bash
+  c
+
+  ```
 
 - Open your web browser and navigate to http://localhost:5173 to see the portfolio in action.
 
 ## Authors
 
-- [@anggifit]( https://github.com/anggifit)
-
+- [@anggifit](https://github.com/anggifit)
 
 ## Contributing
 
 Contributions are always welcome! If you wish to contribute to this project, please open an issue first to discuss the proposed changes.
 
-
 ## License
-This project is licensed under the [MIT](https://choosealicense.com/licenses/mit/) License.
 
+This project is licensed under the [MIT](https://choosealicense.com/licenses/mit/) License.
