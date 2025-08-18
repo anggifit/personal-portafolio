@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
-import SkillsDisplay from "./SkillsDisplay";
-import { handleClickNav } from "../utils/handleClickNav";
+import SkillsDisplay from "./SkillsDisplay.js";
+import { handleClickNav } from "../utils/handleClickNav.js";
 import aboutMeImg from "/homepageAnggi.webp";
 
 const AboutMe = () => {

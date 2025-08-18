@@ -1,6 +1,6 @@
-import NavBar from "./NavBar";
-import Title from "./Title";
-import { handleClickNav } from "../utils/handleClickNav";
+import NavBar from "./NavBar.js";
+import Title from "./Title.js";
+import { handleClickNav } from "../utils/handleClickNav.js";
 
 const Homepage = () => {
   return (

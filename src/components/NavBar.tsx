@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
-import { handleClickNav } from "../utils/handleClickNav";
-import LenguageButtons from "./LanguageButtons";
+import { handleClickNav } from "../utils/handleClickNav.js";
+import LenguageButtons from "./LanguageButtons.js";
 
 const NavBar = () => {
   const { t } = useTranslation();

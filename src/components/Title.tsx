@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Typewriter from "typewriter-effect";
-import { useTranslation } from 'react-i18next';
-import CustomButton from "./CustomButton";
+import { useTranslation } from "react-i18next";
+import CustomButton from "./CustomButton.js";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSquareGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
@@ -32,12 +32,12 @@ const Title = () => {
         <div className="col-span-12 sm:col-span-12 md:col-span-12 lg:col-span-12 xxl:col-span-12">
           <div className="w-full flex flex-col">
             <h1 className="text-black my-2 sm:my-4">
-              {t('name')} <br />
-              {t('title3')}
+              {t("name")} <br />
+              {t("title3")}
               <span className="text-black">
                 <Typewriter
                   options={{
-                    strings: [`${t('title1')}`, `${t('title2')}`],
+                    strings: [`${t("title1")}`, `${t("title2")}`],
                     autoStart: true,
                     loop: true,
                   }}
@@ -51,7 +51,7 @@ const Title = () => {
                   aria-label="Download CV"
                   download
                 >
-                  <CustomButton text={t('downloadButton')} />
+                  <CustomButton text={t("downloadButton")} />
                 </a>
               )}
               <a

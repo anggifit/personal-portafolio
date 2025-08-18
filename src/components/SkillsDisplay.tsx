@@ -1,7 +1,7 @@
 import Marquee from "react-fast-marquee";
 import { useTranslation } from "react-i18next";
 import data from "../data.json";
-import { skillsImage } from "../utils/skillsImage";
+import { skillsImage } from "../utils/skillsImage.js";
 
 function SkillsDisplay() {
   const { t } = useTranslation();
