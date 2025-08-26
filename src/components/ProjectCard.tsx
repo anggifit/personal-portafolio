@@ -1,16 +1,19 @@
-import { useTranslation } from "react-i18next";
-import { skillsImage } from "../utils/skillsImage";
+import { skillsImage } from "../utils/skillsImage.js";
 
+export interface ProjectCardProps {
+  image: string;
+  nameProject: string;
+  description: string;
+  link: string;
+  github: string;
+  techs: { name: string }[];
+}
 const ProjectCard = ({
   image,
   nameProject,
   description,
-  link,
-  github,
   techs,
-}) => {
-  const { t } = useTranslation();
-
+}: ProjectCardProps) => {
   return (
     <div className="rounded-3xl bg-purple-400 hover:bg-slate-600 h-full px-8 sm:px-16 py-6 flex flex-col sm:flex-row items-center">
       <div className="w-full sm:w-1/2 mb-4 sm:mb-0">

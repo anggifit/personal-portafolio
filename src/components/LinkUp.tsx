@@ -1,14 +1,13 @@
-import React from 'react'
-import ContactMe from './ContactMe'
-import Footer from './Footer'
+import ContactMe from "./ContactMe.js";
+import Footer from "./Footer.js";
 
 const LinkUp = () => {
-    return (
-        <div id="contact" className="h-full">
-            <ContactMe/>
-            <Footer/>
-        </div>
-    )
-}
+  return (
+    <div id="contact" className="h-full">
+      <ContactMe />
+      <Footer />
+    </div>
+  );
+};
 
-export default LinkUp
+export default LinkUp;

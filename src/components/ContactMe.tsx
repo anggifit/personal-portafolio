@@ -1,14 +1,26 @@
 import { useRef, useState } from "react";
 import { useTranslation } from "react-i18next";
 import emailjs from "@emailjs/browser";
-import CustomButton from "./CustomButton";
+import CustomButton from "./CustomButton.js";
+
+type FormData = {
+  from_name: string;
+  email: string;
+  message: string;
+};
+
+type FormChangeEvent = React.ChangeEvent<
+  HTMLInputElement | HTMLTextAreaElement
+>;
+
+type FormSubmitEvent = React.FormEvent<HTMLFormElement>;
 
 const ContactMe = () => {
   const { t } = useTranslation();
 
-  const form = useRef();
+  const form = useRef<HTMLFormElement>(null);
 
-  const initialState = {
+  const initialState: FormData = {
     from_name: "",
     email: "",
     message: "",
@@ -17,19 +29,19 @@ const ContactMe = () => {
   const [formData, setFormData] = useState(initialState);
   const [success, setSuccess] = useState(false);
 
-  function handleCleanData(event) {
+  function handleCleanData(event: FormChangeEvent) {
     const { name, value } = event.target;
     setFormData({ ...formData, [name]: value });
   }
 
-  const sendEmail = (e) => {
-    e.preventDefault();
+  const sendEmail = (event: FormSubmitEvent) => {
+    event.preventDefault();
 
     emailjs
       .sendForm(
         import.meta.env.VITE_SERVICE_ID,
         import.meta.env.VITE_TEMPLATE_ID,
-        form.current,
+        form.current!,
         {
           publicKey: import.meta.env.VITE_PUBLIC_KEY,
         }
@@ -74,8 +86,7 @@ const ContactMe = () => {
           </div>
           <div>
             <textarea
-              rows="6"
-              type="text"
+              rows={4}
               name="message"
               className="focus:outline-none border-b w-full pb-2 border-sky-400 placeholder-gray-500 mb-8"
               placeholder={t("placeholderMessage")}

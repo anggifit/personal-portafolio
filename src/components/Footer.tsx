@@ -1,8 +1,7 @@
-import React from "react";
-import { useTranslation } from 'react-i18next';
+import { useTranslation } from "react-i18next";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSquareGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
-import { handleClickNav } from "../utils/handleClickNav";
+import { handleClickNav } from "../utils/handleClickNav.js";
 
 const Footer = () => {
   const { t } = useTranslation();
@@ -16,28 +15,28 @@ const Footer = () => {
             aria-label="Go to home section"
             className="inline md:block cursor-pointer text-gray-400 hover:text-white"
           >
-            {t('homeSection')}
+            {t("homeSection")}
           </a>
           <a
             onClick={handleClickNav("about-me")}
             aria-label="Go to About Me section"
             className="hidden md:block cursor-pointer text-gray-400 hover:text-white"
           >
-            {t('aboutMeSection')}
+            {t("aboutMeSection")}
           </a>
           <a
             onClick={handleClickNav("projects")}
             aria-label="Go to projects section"
             className="hidden md:block cursor-pointer text-gray-400 hover:text-white"
           >
-            {t('projectsSection')}
+            {t("projectsSection")}
           </a>
           <a
             onClick={handleClickNav("contact")}
             aria-label="Go to contact section"
             className="hidden md:block cursor-pointer text-gray-400 hover:text-white"
           >
-            {t('contactTitle')}
+            {t("contactTitle")}
           </a>
           <div className="flex flex-row space-x-8 items-center justify-between">
             <a
@@ -62,7 +61,7 @@ const Footer = () => {
         </div>
         <hr className="border-gray-600" />
         <p className="w-full text-center my-8 text-gray-400">
-          Copyright © 2024 {t('footerCopyright')}
+          Copyright © 2024 {t("footerCopyright")}
         </p>
       </div>
     </div>

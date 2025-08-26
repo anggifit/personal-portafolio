@@ -1,11 +1,20 @@
-import React from "react";
 import { useTranslation } from "react-i18next";
-import ProjectCard from "./ProjectCard";
-import { handleClickNav } from "../utils/handleClickNav";
+import ProjectCard from "./ProjectCard.js";
+import { handleClickNav } from "../utils/handleClickNav.js";
+
+type Project = {
+  id: number;
+  image: string;
+  name: string;
+  description: string;
+  link: string;
+  github: string;
+  techs: { name: string }[];
+};
 
 const Projects = () => {
   const { t } = useTranslation();
-  const projects = t("projects", { returnObjects: true });
+  const projects: Project[] = t("projects", { returnObjects: true });
 
   return (
     <div className="bg-purple-400 w-full h-full min-h-screen" id="projects">

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import Typewriter from "typewriter-effect";
 import { useTranslation } from "react-i18next";
 import CustomButton from "./CustomButton.js";

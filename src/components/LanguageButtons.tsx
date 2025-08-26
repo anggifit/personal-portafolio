@@ -1,11 +1,16 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { useTranslation } from "react-i18next";
+
+type LanguageSwitcherProps = {
+  lng: string;
+  changeLanguage?: (lng: string) => void;
+};
 
 function LanguageSwitcher() {
   const { i18n } = useTranslation();
   const [selectedLanguage, setSelectedLanguage] = useState(i18n.language);
 
-  const changeLanguage = (lng) => {
+  const changeLanguage = ({ lng }: LanguageSwitcherProps) => {
     i18n.changeLanguage(lng);
     setSelectedLanguage(lng);
   };
@@ -13,7 +18,7 @@ function LanguageSwitcher() {
   return (
     <div>
       <button
-        onClick={() => changeLanguage("en")}
+        onClick={() => changeLanguage({ lng: "en" })}
         className={`px-2 mx-2 rounded-full text-xs font-bold ${
           selectedLanguage === "en"
             ? "bg-purple-600 text-white"
@@ -23,7 +28,7 @@ function LanguageSwitcher() {
         En
       </button>
       <button
-        onClick={() => changeLanguage("es")}
+        onClick={() => changeLanguage({ lng: "es" })}
         className={`px-2 mx-2 rounded-full text-xs font-bold ${
           selectedLanguage === "es"
             ? "bg-purple-600 text-white"

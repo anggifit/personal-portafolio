@@ -1,6 +1,7 @@
-import React from "react";
-
-const CustomButton = ({ text }) => {
+type CustomButtonProps = {
+  text: string;
+};
+const CustomButton = ({ text }: CustomButtonProps) => {
   return (
     <div className="flex justify-center my-6">
       <button
